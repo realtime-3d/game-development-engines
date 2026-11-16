@@ -25,12 +25,18 @@ async function init() {
   }
 
   if (!loaded || !Array.isArray(loaded.engines)) {
+    document.getElementById('reading-count').textContent = '0';
+    document.getElementById('count').textContent = 'Dataset unavailable';
     document.getElementById('grid').innerHTML =
       '<div class="empty">Unable to load <code>data/engines.json</code>. Serve via a local HTTP server or GitHub Pages.</div>';
     return;
   }
 
   state.engines = loaded.engines;
+  if (loaded.metadata && loaded.metadata.last_verified) {
+    const stamp = document.getElementById('verified-stamp');
+    if (stamp) stamp.textContent = `Verified ${loaded.metadata.last_verified}`;
+  }
   populateLanguages(state.engines);
   bindEvents();
   render();
@@ -131,11 +137,13 @@ function escapeHtml(str) {
 
 function render() {
   const filtered = state.engines.filter(matches);
-  document.getElementById('count').textContent = `Showing ${filtered.length} of ${state.engines.length} engines`;
+  const readingEl = document.getElementById('reading-count');
+  if (readingEl) readingEl.textContent = String(filtered.length);
+  document.getElementById('count').textContent = `of ${state.engines.length} engines matched`;
 
   const grid = document.getElementById('grid');
   if (filtered.length === 0) {
-    grid.innerHTML = '<div class="empty">No engines match your current filters. Try resetting one or more criteria.</div>';
+    grid.innerHTML = '<div class="empty">No engines match your current filters. Reset one or more criteria to widen the comparison.</div>';
     return;
   }
 
@@ -148,20 +156,20 @@ function render() {
       <article class="card">
         <div class="card-header">
           <h2>${escapeHtml(e.name)}</h2>
-          <a href="${escapeHtml(e.website)}" target="_blank" rel="noopener">Official Site ↗</a>
+          <a href="${escapeHtml(e.website)}" target="_blank" rel="noopener">Official site</a>
         </div>
         <p class="tagline">${escapeHtml(e.tagline)}</p>
         <div class="badges">
           <span class="badge">${escapeHtml(dims)}</span>
-          ${e.open_source ? '<span class="badge oss">Open Source</span>' : ''}
-          ${e.no_code_friendly ? '<span class="badge">No-Code Friendly</span>' : ''}
-          ${!e.zero_royalties ? '<span class="badge royalty">Has Royalties</span>' : '<span class="badge">0% Royalties</span>'}
+          ${e.open_source ? '<span class="badge oss">Open source</span>' : ''}
+          ${e.no_code_friendly ? '<span class="badge nocode">No-code friendly</span>' : ''}
+          ${!e.zero_royalties ? '<span class="badge royalty">Has royalties</span>' : '<span class="badge">0% royalties</span>'}
         </div>
         <div class="meta">
           <div><strong>Languages:</strong> ${escapeHtml(e.languages.join(', '))}</div>
           <div><strong>Targets:</strong> ${escapeHtml(e.target_platforms.join(', '))}</div>
           <div><strong>Pricing:</strong> ${escapeHtml(e.pricing_summary)}</div>
-          <div><strong>Verified:</strong> ${escapeHtml(e.last_verified)} (${escapeHtml(e.latest_version_checked)})</div>
+          <div><strong>Verified:</strong> <span class="meta-verified">${escapeHtml(e.last_verified)} (${escapeHtml(e.latest_version_checked)})</span></div>
         </div>
       </article>`;
     })

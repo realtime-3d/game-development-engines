@@ -3,77 +3,97 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Game Engine Finder — Game Development Engines</title>
+  <title>Game Engine Finder: Compare 25 Game Development Engines</title>
+  <meta name="description" content="Filter 25 commercial and open-source game development engines by 2D or 3D support, target platforms, language, license, and royalties." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400;500&family=Host+Grotesk:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main class="container">
-    <header>
-      <h1>Game Engine Finder</h1>
-      <p>Filter 25 commercial and open-source game development engines by 2D/3D, target platforms, language, license, and pricing.</p>
-    </header>
-
-    <section class="controls" aria-label="Engine filters">
-      <div class="control-group">
-        <label for="search">Search</label>
-        <input id="search" type="text" placeholder="e.g. Godot, pixel art, Rust, mobile..." />
+  <div class="shell">
+    <nav class="topbar" aria-label="Primary navigation">
+      <a class="wordmark" href="../../README.md">Game Development Engines</a>
+      <div class="topbar-meta">
+        <span class="measured" id="verified-stamp">Verified 2026-11-16</span>
+        <a class="nav-link" href="../../README.md#compare-all-game-engines">Full Matrix</a>
       </div>
+    </nav>
 
-      <div class="control-group">
-        <label for="dimension">Dimensions</label>
-        <select id="dimension">
-          <option value="all">2D or 3D</option>
-          <option value="2d">2D</option>
-          <option value="3d">3D</option>
-        </select>
-      </div>
+    <main class="container">
+      <header class="bench-head">
+        <div class="bench-title">
+          <h1>Game Engine Finder</h1>
+          <p class="lede">Compare 25 commercial and open-source engines by dimension, target platform, scripting language, and licensing terms.</p>
+        </div>
+        <div class="bench-reading" aria-live="polite">
+          <span class="reading" id="reading-count">25</span>
+          <span class="reading-unit" id="count">Loading engines…</span>
+        </div>
+      </header>
 
-      <div class="control-group">
-        <label for="platform">Target Platform</label>
-        <select id="platform">
-          <option value="all">Any Platform</option>
-          <option value="Windows">Windows</option>
-          <option value="macOS">macOS</option>
-          <option value="Linux">Linux</option>
-          <option value="Android">Android</option>
-          <option value="iOS">iOS</option>
-          <option value="Web">Web (HTML5/Wasm)</option>
-          <option value="Consoles">Consoles</option>
-        </select>
-      </div>
+      <section class="controls-panel" aria-label="Engine filters">
+        <div class="controls-grid">
+          <div class="control-group control-search">
+            <label for="search">Search by engine, license, or genre</label>
+            <input id="search" type="text" placeholder="e.g. Godot, pixel art, Rust, mobile…" />
+          </div>
 
-      <div class="control-group">
-        <label for="language">Language</label>
-        <select id="language">
-          <option value="all">Any Language</option>
-        </select>
-      </div>
+          <div class="control-group">
+            <label for="dimension">Dimensions</label>
+            <select id="dimension">
+              <option value="all">2D or 3D</option>
+              <option value="2d">2D</option>
+              <option value="3d">3D</option>
+            </select>
+          </div>
 
-      <div class="control-group">
-        <label for="skill">Experience Level</label>
-        <select id="skill">
-          <option value="all">Any Level</option>
-          <option value="beginner">Beginner</option>
-          <option value="intermediate">Intermediate</option>
-          <option value="advanced">Advanced</option>
-        </select>
-      </div>
+          <div class="control-group">
+            <label for="platform">Target platform</label>
+            <select id="platform">
+              <option value="all">Any platform</option>
+              <option value="Windows">Windows</option>
+              <option value="macOS">macOS</option>
+              <option value="Linux">Linux</option>
+              <option value="Android">Android</option>
+              <option value="iOS">iOS</option>
+              <option value="Web">Web (HTML5/Wasm)</option>
+              <option value="Consoles">Consoles</option>
+            </select>
+          </div>
 
-      <div class="toggles">
-        <label class="toggle"><input id="freeOnly" type="checkbox" /> Free tier available</label>
-        <label class="toggle"><input id="zeroRoyaltyOnly" type="checkbox" /> 0% Royalties</label>
-        <label class="toggle"><input id="openSourceOnly" type="checkbox" /> Open Source</label>
-        <label class="toggle"><input id="noCodeOnly" type="checkbox" /> No-Code / Visual friendly</label>
-      </div>
-    </section>
+          <div class="control-group">
+            <label for="language">Language</label>
+            <select id="language">
+              <option value="all">Any language</option>
+            </select>
+          </div>
 
-    <div class="results-bar">
-      <span id="count">Loading engines...</span>
-      <button id="reset" class="reset-btn" type="button">Reset Filters</button>
-    </div>
+          <div class="control-group">
+            <label for="skill">Experience level</label>
+            <select id="skill">
+              <option value="all">Any level</option>
+              <option value="beginner">Beginner</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="advanced">Advanced</option>
+            </select>
+          </div>
+        </div>
 
-    <section id="grid" class="grid" aria-live="polite"></section>
-  </main>
+        <div class="toggles-bar">
+          <div class="toggles">
+            <label class="toggle"><input id="freeOnly" type="checkbox" /> <span>Free tier available</span></label>
+            <label class="toggle"><input id="zeroRoyaltyOnly" type="checkbox" /> <span>0% royalties</span></label>
+            <label class="toggle"><input id="openSourceOnly" type="checkbox" /> <span>Open source</span></label>
+            <label class="toggle"><input id="noCodeOnly" type="checkbox" /> <span>No-code friendly</span></label>
+          </div>
+          <button id="reset" class="btn btn--primary" type="button">Reset filters</button>
+        </div>
+      </section>
+
+      <section id="grid" class="panels-grid" aria-live="polite" aria-label="Matching game engines"></section>
+    </main>
+  </div>
   <script src="app.js"></script>
 </body>
 </html>
