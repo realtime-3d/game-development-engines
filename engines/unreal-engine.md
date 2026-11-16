@@ -19,6 +19,13 @@
 - **Primary Language:** C++ (with full engine source access)
 - **Visual Scripting:** **Blueprints** — a production-grade node-based visual scripting system deeply integrated into the editor.
 
+## System Requirements (Unreal Engine 5.x)
+
+Per Epic Games' [official UE5 hardware & software specifications](https://dev.epicgames.com/documentation/en-us/unreal-engine/hardware-and-software-specifications-for-unreal-engine):
+
+- **Windows (Recommended):** Windows 10 22H2 / Windows 11 (64-bit), Quad-core Intel/AMD 2.5 GHz+, **32 GB RAM**, DirectX 12 GPU with **8 GB VRAM or more**, Visual Studio 2022 for C++ workflows.
+- **macOS (Recommended / Minimum):** macOS Sonoma 14.5+ (Sequoia recommended), **Apple Silicon M1/M2+** (M3 recommended), **16 GB RAM minimum (32 GB+ recommended)**, Metal-capable GPU, and Xcode. *Note:* Nanite and Hardware Ray Tracing on macOS have Apple Silicon M2+ requirements and experimental caveats compared to Windows DX12 GPUs.
+
 ## 2D & 3D Capabilities
 
 - **3D:** Industry-leading rendering stack including **Lumen** (dynamic global illumination), **Nanite** (virtualized micropolygon geometry), **Niagara** (VFX), **Chaos** (physics/destruction), and **MetaHuman**.

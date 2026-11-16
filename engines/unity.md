@@ -16,8 +16,15 @@
 
 ## Languages & Visual Scripting
 
-- **Primary Language:** C# (.NET / IL2CPP)
+- **Primary Language:** **C#** (.NET / IL2CPP). Legacy UnityScript and Boo were retired; C# is Unity's sole text programming language.
 - **Visual Scripting:** Built-in **Unity Visual Scripting** (formerly Bolt), included with the editor.
+
+## System Requirements & Unity on macOS (Apple Silicon)
+
+Per [Unity 6 official system requirements](https://docs.unity3d.com/Manual/system-requirements.html):
+
+- **Windows:** Windows 10 (21H1+ X64) or Windows 11 (X64/Arm64), DX10/11/12 or Vulkan GPU, minimum **8 GB RAM** (16–32 GB recommended for URP/HDRP projects).
+- **macOS & Apple Silicon:** macOS Big Sur (11) or newer on **Apple Silicon (M1 or above)** or Intel X64 with Metal-capable GPUs. Apple visionOS builds require a native Apple Silicon macOS Unity Editor and Xcode 15+.
 
 ## 2D & 3D Capabilities
 

@@ -79,10 +79,11 @@ Compare game engines for 2D, 3D, mobile, PC, web and consoles. Find out which en
 - [GDevelop vs GameMaker](comparisons/gdevelop-vs-gamemaker.md)
 
 ### Guides by Intent, Platform & Genre
+- **Fundamentals & Architecture:** [What Is a Game Engine?](categories/what-is-a-game-engine.md) | [Programming Languages (C#, C++, GDScript, Lua)](categories/programming-languages.md) | [Build Your Own Game Engine](categories/build-your-own-game-engine.md)
 - **Skill Level:** [Beginners](categories/beginners.md) | [No-Code & Visual Scripting](categories/no-code.md)
 - **Dimensions:** [2D Game Engines](categories/2d-game-engines.md) | [3D Game Engines](categories/3d-game-engines.md)
 - **Licensing & Cost:** [Free Game Engines](categories/free-game-engines.md) | [Open-Source Game Engines](categories/open-source-game-engines.md) | [Pricing & Royalties](categories/pricing-and-royalties.md)
-- **Platforms:** [Mobile (iOS & Android)](categories/mobile-game-engines.md) | [Web & HTML5](categories/web-html5-game-engines.md) | [PC & Consoles](categories/console-and-pc.md)
+- **Platforms & Networking:** [Mobile (iOS & Android)](categories/mobile-game-engines.md) | [Web & HTML5](categories/web-html5-game-engines.md) | [PC & Consoles](categories/console-and-pc.md) | [Multiplayer & Game Servers](categories/multiplayer-game-engines.md)
 - **Genres:** [RPGs, Visual Novels, Pixel Art & Platformers](categories/rpg-and-visual-novels.md)
 
 ### Practical Benchmark & Interactive Finder
