@@ -1,0 +1,954 @@
+{
+  "metadata": {
+    "title": "Game Development Engines — The Complete Open Guide",
+    "version": "1.0.0",
+    "last_verified": "2026-11-16",
+    "total_engines": 25
+  },
+  "engines": [
+    {
+      "id": "unity",
+      "name": "Unity",
+      "tagline": "Cross-platform 2D and 3D engine widely used for indie, mobile, XR, and AA games.",
+      "website": "https://unity.com/",
+      "docs_url": "https://docs.unity3d.com/",
+      "license": "Proprietary (Unity Software License)",
+      "open_source": false,
+      "source_available": false,
+      "dimensions": {
+        "2d": true,
+        "3d": true,
+        "3d_note": "Full-featured 3D PBR pipeline (URP, HDRP, Built-in)"
+      },
+      "languages": ["C#"],
+      "visual_scripting": true,
+      "visual_scripting_note": "Built-in Unity Visual Scripting (formerly Bolt)",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "macOS", "Linux"],
+      "target_platforms": ["Windows", "macOS", "Linux", "Android", "iOS", "Web", "Consoles"],
+      "console_note": "Console export (PlayStation, Xbox, Nintendo Switch) requires Unity Pro/Enterprise and platform-holder approval.",
+      "pricing_summary": "Free Personal tier up to $200k trailing 12-month revenue/funding (splash screen optional in Unity 6); Pro $2,310/seat/year.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (seat-based subscription above $200k; Runtime Fee canceled)",
+      "skill_level": ["beginner", "intermediate", "advanced"],
+      "best_for": ["2D", "3D", "Mobile", "Indie", "VR/XR", "Platformer", "RPG"],
+      "notable_games": [
+        {"title": "Hollow Knight", "source": "https://unity.com/madewith/hollow-knight"},
+        {"title": "Cuphead", "source": "https://unity.com/madewith"},
+        {"title": "Cities: Skylines", "source": "https://unity.com/madewith"}
+      ],
+      "latest_version_checked": "Unity 6",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://unity.com/pricing",
+        "https://docs.unity3d.com/"
+      ]
+    },
+    {
+      "id": "unreal-engine",
+      "name": "Unreal Engine",
+      "tagline": "High-fidelity 3D engine with Blueprints visual scripting and C++ source access.",
+      "website": "https://www.unrealengine.com/",
+      "docs_url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-documentation",
+      "license": "Unreal Engine EULA (Source-available)",
+      "open_source": false,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": true,
+        "3d_note": "Industry-leading 3D rendering (Lumen, Nanite, Niagara)"
+      },
+      "languages": ["C++", "Blueprints"],
+      "visual_scripting": true,
+      "visual_scripting_note": "Blueprints node-based visual scripting is first-class and production-ready.",
+      "no_code_friendly": true,
+      "editor_platforms": ["Windows", "macOS", "Linux"],
+      "target_platforms": ["Windows", "macOS", "Linux", "Android", "iOS", "Consoles"],
+      "console_note": "Official console support requires registered developer status with Sony, Microsoft, or Nintendo.",
+      "pricing_summary": "Free to download and use; 5% royalty on gross revenue above $1,000,000 lifetime per game (waived on Epic Games Store).",
+      "free_tier": true,
+      "zero_royalties": false,
+      "royalties": "5% above $1M lifetime gross revenue per product (0% on EGS sales)",
+      "skill_level": ["intermediate", "advanced"],
+      "best_for": ["3D", "AAA", "Indie", "VR/XR", "PC", "Console"],
+      "notable_games": [
+        {"title": "Fortnite", "source": "https://www.unrealengine.com/"},
+        {"title": "Black Myth: Wukong", "source": "https://www.unrealengine.com/en-US/uses/games"},
+        {"title": "Hellblade II", "source": "https://www.unrealengine.com/en-US/uses/games"}
+      ],
+      "latest_version_checked": "Unreal Engine 5.x",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://www.unrealengine.com/en-US/eula/unreal",
+        "https://www.unrealengine.com/en-US/faq"
+      ]
+    },
+    {
+      "id": "godot",
+      "name": "Godot",
+      "tagline": "Free, MIT-licensed open-source 2D and 3D engine with GDScript, C#, and C++ GDExtension.",
+      "website": "https://godotengine.org/",
+      "docs_url": "https://docs.godotengine.org/",
+      "license": "MIT License",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": true,
+        "3d_note": "Dedicated 2D pixel-coordinate renderer plus Forward+/Mobile/Compatibility 3D renderers"
+      },
+      "languages": ["GDScript", "C#", "C++ (GDExtension)"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Built-in VisualScript was removed in Godot 4.0; third-party Orchestrator plugin adds visual scripting.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "macOS", "Linux", "Android", "Web"],
+      "target_platforms": ["Windows", "macOS", "Linux", "Android", "iOS", "Web", "Consoles"],
+      "console_note": "No built-in console export due to MIT license vs NDA; consoles supported via third-party porting middleware (e.g., W4 Games).",
+      "pricing_summary": "100% free and open-source forever under the MIT License with zero royalties.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (MIT License)",
+      "skill_level": ["beginner", "intermediate", "advanced"],
+      "best_for": ["2D", "3D", "Indie", "Pixel Art", "Platformer", "RPG", "Prototyping"],
+      "notable_games": [
+        {"title": "Brotato", "source": "https://godotengine.org/showcase/"},
+        {"title": "Cassette Beasts", "source": "https://godotengine.org/showcase/"},
+        {"title": "Dome Keeper", "source": "https://godotengine.org/showcase/"}
+      ],
+      "latest_version_checked": "Godot 4.7.2",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://godotengine.org/license/",
+        "https://docs.godotengine.org/en/stable/tutorials/export/index.html"
+      ]
+    },
+    {
+      "id": "gamemaker",
+      "name": "GameMaker",
+      "tagline": "2D-focused commercial engine known for fast iteration, GML scripting, and GML Visual.",
+      "website": "https://gamemaker.io/",
+      "docs_url": "https://manual.gamemaker.io/",
+      "license": "Proprietary",
+      "open_source": false,
+      "source_available": false,
+      "dimensions": {
+        "2d": true,
+        "3d": false,
+        "3d_note": "Primarily 2D; supports primitive 3D via vertex buffers and matrices, not a full 3D pipeline"
+      },
+      "languages": ["GML", "GML Visual"],
+      "visual_scripting": true,
+      "visual_scripting_note": "GML Visual (node/block-based) is included free in all tiers and compiles to GML.",
+      "no_code_friendly": true,
+      "editor_platforms": ["Windows", "macOS"],
+      "target_platforms": ["Windows", "macOS", "Linux", "Android", "iOS", "Web", "Consoles"],
+      "console_note": "Console exports require the Enterprise subscription ($79.99/mo or $799.99/yr) and platform-holder approval.",
+      "pricing_summary": "Free for non-commercial use; $99.99 one-time Professional license for commercial desktop/mobile/web; $79.99/mo Enterprise for consoles.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (one-time $99.99 Professional or Enterprise subscription for consoles)",
+      "skill_level": ["beginner", "intermediate"],
+      "best_for": ["2D", "Pixel Art", "Platformer", "Indie", "RPG", "No-Code"],
+      "notable_games": [
+        {"title": "Undertale", "source": "https://gamemaker.io/en/showcase"},
+        {"title": "Hotline Miami", "source": "https://gamemaker.io/en/showcase"},
+        {"title": "Pizza Tower", "source": "https://gamemaker.io/en/showcase"}
+      ],
+      "latest_version_checked": "GameMaker 2024/2026 LTS & Monthly",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://gamemaker.io/en/get",
+        "https://manual.gamemaker.io/"
+      ]
+    },
+    {
+      "id": "gdevelop",
+      "name": "GDevelop",
+      "tagline": "Open-source no-code 2D/3D game engine powered by an intuitive event sheet system.",
+      "website": "https://gdevelop.io/",
+      "docs_url": "https://wiki.gdevelop.io/",
+      "license": "MIT License (Core engine & editor)",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": true,
+        "3d_note": "Includes native 3D objects, models, and behaviors; best suited for stylized/light 3D"
+      },
+      "languages": ["Visual Events", "JavaScript"],
+      "visual_scripting": true,
+      "visual_scripting_note": "Condition/Action event sheets allow full game creation without writing code.",
+      "no_code_friendly": true,
+      "editor_platforms": ["Windows", "macOS", "Linux", "Web", "Android"],
+      "target_platforms": ["Windows", "macOS", "Linux", "Android", "iOS", "Web"],
+      "console_note": "No native console export out of the box.",
+      "pricing_summary": "Core engine & manual exports are 100% free (MIT); optional cloud build/storage plans start around $4.99–$9.99/mo.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (MIT core; paid plans only for optional cloud builds/services)",
+      "skill_level": ["beginner", "intermediate"],
+      "best_for": ["2D", "No-Code", "Web", "Mobile", "Platformer", "Prototyping"],
+      "notable_games": [
+        {"title": "Lil BUB's HELLO EARTH", "source": "https://gdevelop.io/games"},
+        {"title": "Miko Adventures Puffball", "source": "https://gdevelop.io/games"}
+      ],
+      "latest_version_checked": "GDevelop 5.x",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://gdevelop.io/pricing",
+        "https://github.com/4ian/GDevelop"
+      ]
+    },
+    {
+      "id": "phaser",
+      "name": "Phaser",
+      "tagline": "Fast, MIT-licensed 2D HTML5/WebGL framework for JavaScript and TypeScript developers.",
+      "website": "https://phaser.io/",
+      "docs_url": "https://docs.phaser.io/",
+      "license": "MIT License",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": false,
+        "3d_note": "Strictly 2D (WebGL & Canvas)"
+      },
+      "languages": ["JavaScript", "TypeScript"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Code-first framework; optional paid Phaser Editor adds visual scene layout.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "macOS", "Linux", "Web"],
+      "target_platforms": ["Web", "Windows", "macOS", "Linux", "Android", "iOS"],
+      "console_note": "Desktop/mobile via Electron/Capacitor wrappers; not designed for native console releases.",
+      "pricing_summary": "100% free and open-source (MIT); optional Phaser Editor commercial tooling has paid plans.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (MIT License)",
+      "skill_level": ["beginner", "intermediate", "advanced"],
+      "best_for": ["2D", "Web", "Pixel Art", "Prototyping", "Indie"],
+      "notable_games": [
+        {"title": "Vampire Survivors (early prototype)", "source": "https://phaser.io/"},
+        {"title": "Poki / CrazyGames web hits", "source": "https://phaser.io/"}
+      ],
+      "latest_version_checked": "Phaser 3.8x / Phaser 4",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://phaser.io/",
+        "https://github.com/phaserjs/phaser"
+      ]
+    },
+    {
+      "id": "construct-3",
+      "name": "Construct 3",
+      "tagline": "Browser-based 2D game engine using event sheets with optional JavaScript/TypeScript.",
+      "website": "https://www.construct.net/",
+      "docs_url": "https://www.construct.net/en/make-games/manuals/construct-3",
+      "license": "Proprietary (Subscription)",
+      "open_source": false,
+      "source_available": false,
+      "dimensions": {
+        "2d": true,
+        "3d": false,
+        "3d_note": "2D-first with basic 3D camera/shape/mesh distortion features"
+      },
+      "languages": ["Event Sheets", "JavaScript", "TypeScript"],
+      "visual_scripting": true,
+      "visual_scripting_note": "Visual event sheets are the primary workflow.",
+      "no_code_friendly": true,
+      "editor_platforms": ["Web", "Windows", "macOS", "Linux"],
+      "target_platforms": ["Web", "Windows", "macOS", "Linux", "Android", "iOS", "Consoles"],
+      "console_note": "Xbox export supported via UWP/WebView2; other consoles via third-party wrappers.",
+      "pricing_summary": "Free edition limited to 25 events (no commercial export); Personal subscription ~$15.99/mo or ~$119/yr.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (subscription-based)",
+      "skill_level": ["beginner", "intermediate"],
+      "best_for": ["2D", "No-Code", "Web", "Mobile", "Platformer", "Prototyping"],
+      "notable_games": [
+        {"title": "The Next Penelope", "source": "https://www.construct.net/en/make-games/showcase"},
+        {"title": "Iconoclasts (Construct Classic)", "source": "https://www.construct.net/"}
+      ],
+      "latest_version_checked": "Construct 3",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://www.construct.net/en/make-games/buy-construct-3/personal-plans",
+        "https://www.construct.net/en/make-games/manuals/construct-3"
+      ]
+    },
+    {
+      "id": "defold",
+      "name": "Defold",
+      "tagline": "Lightweight, source-available Lua-based 2D/3D engine backed by the Defold Foundation.",
+      "website": "https://defold.com/",
+      "docs_url": "https://defold.com/learn/",
+      "license": "Defold License (Apache 2.0-derived, source-available)",
+      "open_source": false,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": true,
+        "3d_note": "Strong 2D focus with native 3D mesh, PBR, and physics support"
+      },
+      "languages": ["Lua", "C/C++ (Native Extensions)"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Code-driven using Lua.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "macOS", "Linux"],
+      "target_platforms": ["Windows", "macOS", "Linux", "Android", "iOS", "Web", "Consoles"],
+      "console_note": "Official Nintendo Switch, PS4, PS5, and Xbox support for approved console developers.",
+      "pricing_summary": "100% free forever with zero royalties, guaranteed by the Defold Foundation charter.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (Defold Foundation)",
+      "skill_level": ["intermediate", "advanced"],
+      "best_for": ["2D", "Mobile", "Web", "Indie", "Console"],
+      "notable_games": [
+        {"title": "Family Island", "source": "https://defold.com/showcase/"},
+        {"title": "Void Scrappers", "source": "https://defold.com/showcase/"}
+      ],
+      "latest_version_checked": "Defold 1.9.x",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://defold.com/license/",
+        "https://defold.com/product/"
+      ]
+    },
+    {
+      "id": "rpg-maker-mz",
+      "name": "RPG Maker MZ",
+      "tagline": "Specialized 2D tilemap engine designed for classic JRPGs with zero coding required.",
+      "website": "https://www.rpgmakerweb.com/products/rpg-maker-mz",
+      "docs_url": "https://rpgmakerofficial.com/product/mz/",
+      "license": "Proprietary (One-time purchase)",
+      "open_source": false,
+      "source_available": false,
+      "dimensions": {
+        "2d": true,
+        "3d": false,
+        "3d_note": "Strictly 2D tile-based RPG engine"
+      },
+      "languages": ["Event Commands", "JavaScript (Plugins)"],
+      "visual_scripting": true,
+      "visual_scripting_note": "Built-in database, map editor, and event command system.",
+      "no_code_friendly": true,
+      "editor_platforms": ["Windows", "macOS"],
+      "target_platforms": ["Windows", "macOS", "Web", "Android", "iOS"],
+      "console_note": "Mobile requires Cordova/Capacitor wrapping; consoles require third-party porting.",
+      "pricing_summary": "$69.99–$79.99 one-time purchase (frequently discounted); zero royalties.",
+      "free_tier": false,
+      "zero_royalties": true,
+      "royalties": "0% (one-time license)",
+      "skill_level": ["beginner", "intermediate"],
+      "best_for": ["2D", "RPG", "Pixel Art", "No-Code", "Indie"],
+      "notable_games": [
+        {"title": "OMORI (RPG Maker MV)", "source": "https://www.rpgmakerweb.com/"},
+        {"title": "To the Moon (RPG Maker XP)", "source": "https://www.rpgmakerweb.com/"}
+      ],
+      "latest_version_checked": "RPG Maker MZ",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://rpgmakerofficial.com/product/mz/"
+      ]
+    },
+    {
+      "id": "renpy",
+      "name": "Ren'Py",
+      "tagline": "Free, MIT-licensed visual novel engine powered by Python and a simple dialogue script.",
+      "website": "https://www.renpy.org/",
+      "docs_url": "https://www.renpy.org/doc/html/",
+      "license": "MIT License (with LGPL components)",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": false,
+        "3d_note": "2D narrative/UI engine with 3D camera transforms for parallax"
+      },
+      "languages": ["Ren'Py Script", "Python"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Uses human-readable dialogue script syntax, very accessible to non-programmers.",
+      "no_code_friendly": true,
+      "editor_platforms": ["Windows", "macOS", "Linux"],
+      "target_platforms": ["Windows", "macOS", "Linux", "Android", "iOS", "Web"],
+      "console_note": "Consoles require third-party porting (e.g., Ratalaika or Serenity Forge).",
+      "pricing_summary": "100% free and open-source with zero royalties.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (MIT License)",
+      "skill_level": ["beginner", "intermediate"],
+      "best_for": ["2D", "Visual Novel", "Indie", "No-Code"],
+      "notable_games": [
+        {"title": "Doki Doki Literature Club!", "source": "https://www.renpy.org/"},
+        {"title": "Slay the Princess", "source": "https://www.renpy.org/"}
+      ],
+      "latest_version_checked": "Ren'Py 8.x",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://www.renpy.org/doc/html/license.html"
+      ]
+    },
+    {
+      "id": "love2d",
+      "name": "LÖVE (Love2D)",
+      "tagline": "Minimalist, zlib-licensed 2D game framework using Lua.",
+      "website": "https://love2d.org/",
+      "docs_url": "https://love2d.org/wiki/Main_Page",
+      "license": "zlib License",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": false,
+        "3d_note": "2D framework; custom 3D possible via shaders/meshes"
+      },
+      "languages": ["Lua"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Code-only framework (no built-in GUI editor).",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "macOS", "Linux"],
+      "target_platforms": ["Windows", "macOS", "Linux", "Android", "iOS", "Web"],
+      "console_note": "No official console export; community ports exist for homebrew/consoles via partners.",
+      "pricing_summary": "100% free and open-source (zlib license) with zero royalties.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (zlib License)",
+      "skill_level": ["intermediate", "advanced"],
+      "best_for": ["2D", "Pixel Art", "Indie", "Prototyping"],
+      "notable_games": [
+        {"title": "Balatro", "source": "https://love2d.org/"},
+        {"title": "Move or Die", "source": "https://love2d.org/"}
+      ],
+      "latest_version_checked": "LÖVE 11.5",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://love2d.org/wiki/License"
+      ]
+    },
+    {
+      "id": "bevy",
+      "name": "Bevy",
+      "tagline": "Modern, data-driven ECS game engine built in Rust under MIT/Apache 2.0.",
+      "website": "https://bevyengine.org/",
+      "docs_url": "https://bevyengine.org/learn/",
+      "license": "MIT OR Apache-2.0",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": true,
+        "3d_note": "PBR 3D rendering, global illumination experiments, and 2D sprite/tilemap support"
+      },
+      "languages": ["Rust"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Code-first ECS architecture; visual editor is under active community/official development.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "macOS", "Linux"],
+      "target_platforms": ["Windows", "macOS", "Linux", "Web", "Android", "iOS"],
+      "console_note": "No official console targets yet due to NDA/Rust toolchain constraints.",
+      "pricing_summary": "100% free and open-source forever (MIT / Apache 2.0).",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (MIT / Apache 2.0)",
+      "skill_level": ["intermediate", "advanced"],
+      "best_for": ["2D", "3D", "Indie", "Prototyping"],
+      "notable_games": [
+        {"title": "Tiny Glade (custom Rust, Bevy-adjacent ecosystem)", "source": "https://bevyengine.org/"},
+        {"title": "Bevy Jam winners", "source": "https://bevyengine.org/"}
+      ],
+      "latest_version_checked": "Bevy 0.15+",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://bevyengine.org/",
+        "https://github.com/bevyengine/bevy"
+      ]
+    },
+    {
+      "id": "cocos-creator",
+      "name": "Cocos Creator",
+      "tagline": "Open-core 2D/3D engine with TypeScript scripting, popular for mobile and HTML5 mini-games.",
+      "website": "https://www.cocos.com/en/creator",
+      "docs_url": "https://docs.cocos.com/creator/manual/en/",
+      "license": "Open-source core (MIT-like / Apache)",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": true,
+        "3d_note": "Supports full 3D PBR rendering alongside industry-proven 2D tools"
+      },
+      "languages": ["TypeScript", "JavaScript", "C++ (Engine)"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Component-based editor with TypeScript scripting.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "macOS"],
+      "target_platforms": ["Windows", "macOS", "Android", "iOS", "Web"],
+      "console_note": "Primarily targets mobile, desktop, and web/mini-game platforms.",
+      "pricing_summary": "100% free with zero royalties; optional enterprise VIP support and marketplace assets.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0%",
+      "skill_level": ["intermediate", "advanced"],
+      "best_for": ["2D", "3D", "Mobile", "Web", "Indie"],
+      "notable_games": [
+        {"title": "Badland", "source": "https://www.cocos.com/en/"},
+        {"title": "Geometry Dash (Cocos2d-x)", "source": "https://www.cocos.com/en/"}
+      ],
+      "latest_version_checked": "Cocos Creator 3.8.x",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://www.cocos.com/en/creator",
+        "https://docs.cocos.com/creator/manual/en/"
+      ]
+    },
+    {
+      "id": "monogame",
+      "name": "MonoGame",
+      "tagline": "Open-source C# framework (successor to Microsoft XNA) for 2D and 3D cross-platform games.",
+      "website": "https://monogame.net/",
+      "docs_url": "https://docs.monogame.net/",
+      "license": "Microsoft Public License (Ms-PL)",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": true,
+        "3d_note": "Code-level 2D SpriteBatch and 3D GraphicsDevice APIs"
+      },
+      "languages": ["C#"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Code-only framework (bring your own level editor like Tiled or LDtk).",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "macOS", "Linux"],
+      "target_platforms": ["Windows", "macOS", "Linux", "Android", "iOS", "Consoles"],
+      "console_note": "Proven console track record (Switch, PlayStation, Xbox) for registered console developers.",
+      "pricing_summary": "100% free and open-source (Ms-PL) with zero royalties.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (Ms-PL)",
+      "skill_level": ["intermediate", "advanced"],
+      "best_for": ["2D", "Indie", "Pixel Art", "Platformer", "Console"],
+      "notable_games": [
+        {"title": "Celeste", "source": "https://monogame.net/showcase/"},
+        {"title": "Stardew Valley", "source": "https://monogame.net/showcase/"},
+        {"title": "Streets of Rage 4", "source": "https://monogame.net/showcase/"}
+      ],
+      "latest_version_checked": "MonoGame 3.8.2",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://monogame.net/",
+        "https://docs.monogame.net/"
+      ]
+    },
+    {
+      "id": "threejs",
+      "name": "Three.js",
+      "tagline": "The most widely used open-source WebGL/WebGPU 3D library for browser games and experiences.",
+      "website": "https://threejs.org/",
+      "docs_url": "https://threejs.org/docs/",
+      "license": "MIT License",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": true,
+        "3d_note": "Full WebGL 2 & WebGPU 3D rendering library"
+      },
+      "languages": ["JavaScript", "TypeScript"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Code-first library with an optional online scene editor.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "macOS", "Linux", "Web"],
+      "target_platforms": ["Web", "Windows", "macOS", "Linux", "Android", "iOS"],
+      "console_note": "Browser-first; native apps via Electron/Capacitor.",
+      "pricing_summary": "100% free and open-source (MIT).",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (MIT License)",
+      "skill_level": ["intermediate", "advanced"],
+      "best_for": ["3D", "Web", "Prototyping"],
+      "notable_games": [
+        {"title": "Krunker.io", "source": "https://threejs.org/"},
+        {"title": "Slow Roads", "source": "https://threejs.org/"}
+      ],
+      "latest_version_checked": "Three.js r170+",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://threejs.org/",
+        "https://github.com/mrdoob/three.js"
+      ]
+    },
+    {
+      "id": "babylonjs",
+      "name": "Babylon.js",
+      "tagline": "Complete, MIT-licensed WebGL/WebGPU 3D engine with physics, XR, and node material editor.",
+      "website": "https://www.babylonjs.com/",
+      "docs_url": "https://doc.babylonjs.com/",
+      "license": "Apache License 2.0",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": true,
+        "3d_note": "Full 3D PBR, WebGPU, Havok physics integration, and WebXR"
+      },
+      "languages": ["TypeScript", "JavaScript"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Includes visual Node Material Editor & GUI Editor; gameplay is coded in TS/JS.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "macOS", "Linux", "Web"],
+      "target_platforms": ["Web", "Windows", "macOS", "Linux", "Android", "iOS"],
+      "console_note": "Browser-first; native via Babylon Native / Electron.",
+      "pricing_summary": "100% free and open-source (Apache 2.0).",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (Apache 2.0)",
+      "skill_level": ["intermediate", "advanced"],
+      "best_for": ["3D", "Web", "VR/XR"],
+      "notable_games": [
+        {"title": "Shell Shockers", "source": "https://www.babylonjs.com/"}
+      ],
+      "latest_version_checked": "Babylon.js 7.x",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://www.babylonjs.com/",
+        "https://github.com/BabylonJS/Babylon.js"
+      ]
+    },
+    {
+      "id": "playcanvas",
+      "name": "PlayCanvas",
+      "tagline": "Cloud-hosted collaborative 3D HTML5/WebGL engine with an MIT open-source runtime.",
+      "website": "https://playcanvas.com/",
+      "docs_url": "https://developer.playcanvas.com/",
+      "license": "MIT License (Runtime) / Proprietary (Cloud Editor)",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": true,
+        "3d_note": "Optimized 3D WebGL/WebGPU engine built for instant-load browser games"
+      },
+      "languages": ["JavaScript", "TypeScript"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Visual scene/hierarchy editor with JS/TS scripting.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Web"],
+      "target_platforms": ["Web", "Android", "iOS", "Windows", "macOS"],
+      "console_note": "Focused on WebGL, mobile instant games, and playable ads.",
+      "pricing_summary": "Free tier for public projects; Personal ($15/mo) and Organization ($50/seat/mo) for private cloud projects.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0%",
+      "skill_level": ["beginner", "intermediate", "advanced"],
+      "best_for": ["3D", "Web", "Mobile"],
+      "notable_games": [
+        {"title": "Venge.io", "source": "https://playcanvas.com/"},
+        {"title": "Robostorm", "source": "https://playcanvas.com/"}
+      ],
+      "latest_version_checked": "PlayCanvas Engine 2.x",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://playcanvas.com/plans",
+        "https://github.com/playcanvas/engine"
+      ]
+    },
+    {
+      "id": "pixijs",
+      "name": "PixiJS",
+      "tagline": "Ultra-fast MIT-licensed 2D WebGL/WebGPU rendering library for web games and interactive apps.",
+      "website": "https://pixijs.com/",
+      "docs_url": "https://pixijs.com/8.x/guides",
+      "license": "MIT License",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": false,
+        "3d_note": "Pure 2D hardware-accelerated renderer"
+      },
+      "languages": ["TypeScript", "JavaScript"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Rendering library only; no built-in editor.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "macOS", "Linux"],
+      "target_platforms": ["Web", "Windows", "macOS", "Linux", "Android", "iOS"],
+      "console_note": "Web-first; wrap with Electron/Capacitor for desktop/mobile.",
+      "pricing_summary": "100% free and open-source (MIT).",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (MIT License)",
+      "skill_level": ["intermediate", "advanced"],
+      "best_for": ["2D", "Web", "Prototyping"],
+      "notable_games": [
+        {"title": "Habbo Hotel (HTML5 client)", "source": "https://pixijs.com/"}
+      ],
+      "latest_version_checked": "PixiJS v8",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://pixijs.com/",
+        "https://github.com/pixijs/pixijs"
+      ]
+    },
+    {
+      "id": "cryengine",
+      "name": "CRYENGINE",
+      "tagline": "High-end 3D engine known for realistic outdoor environments and real-time lighting.",
+      "website": "https://www.cryengine.com/",
+      "docs_url": "https://docs.cryengine.com/",
+      "license": "CRYENGINE EULA (Source-available)",
+      "open_source": false,
+      "source_available": true,
+      "dimensions": {
+        "2d": false,
+        "3d": true,
+        "3d_note": "AAA 3D rendering with SVOGI global illumination"
+      },
+      "languages": ["C++", "C#", "Schematyc (Visual)"],
+      "visual_scripting": true,
+      "visual_scripting_note": "Schematyc visual scripting system.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows"],
+      "target_platforms": ["Windows", "Linux", "Consoles"],
+      "console_note": "Console support for registered developers.",
+      "pricing_summary": "Free to start; 5% royalty above $5,000 annual revenue per project.",
+      "free_tier": true,
+      "zero_royalties": false,
+      "royalties": "5% above $5,000 annual revenue",
+      "skill_level": ["advanced"],
+      "best_for": ["3D", "AAA", "PC", "Console"],
+      "notable_games": [
+        {"title": "Kingdom Come: Deliverance", "source": "https://www.cryengine.com/showcase"},
+        {"title": "Hunt: Showdown 1896", "source": "https://www.cryengine.com/showcase"}
+      ],
+      "latest_version_checked": "CRYENGINE 5.7 LTS",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://www.cryengine.com/get-cryengine"
+      ]
+    },
+    {
+      "id": "o3de",
+      "name": "O3DE (Open 3D Engine)",
+      "tagline": "Linux Foundation Apache 2.0 / MIT open-source AAA-grade 3D engine evolved from Lumberyard.",
+      "website": "https://o3de.org/",
+      "docs_url": "https://www.o3de.org/docs/",
+      "license": "Apache-2.0 OR MIT",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": false,
+        "3d": true,
+        "3d_note": "Atom photorealistic PBR renderer, modular Gem architecture"
+      },
+      "languages": ["C++", "Lua", "Script Canvas"],
+      "visual_scripting": true,
+      "visual_scripting_note": "Script Canvas node-based visual scripting.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "Linux"],
+      "target_platforms": ["Windows", "Linux", "macOS", "Android", "iOS"],
+      "console_note": "No out-of-the-box public console exports.",
+      "pricing_summary": "100% free and open-source (Apache 2.0 / MIT) with zero royalties.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (Apache 2.0 / MIT)",
+      "skill_level": ["advanced"],
+      "best_for": ["3D", "AAA", "PC"],
+      "notable_games": [
+        {"title": "New World (Azoth Engine ancestor)", "source": "https://o3de.org/"}
+      ],
+      "latest_version_checked": "O3DE 24.09+",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://o3de.org/",
+        "https://github.com/o3de/o3de"
+      ]
+    },
+    {
+      "id": "stride",
+      "name": "Stride",
+      "tagline": "MIT-licensed open-source C# 2D/3D engine with a visual editor similar to Unity.",
+      "website": "https://www.stride3d.net/",
+      "docs_url": "https://doc.stride3d.net/",
+      "license": "MIT License",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": true,
+        "3d_note": "Modern C#/.NET 3D PBR pipeline with Vulkan/Direct3D 12"
+      },
+      "languages": ["C#"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Code-first C#/.NET 8+ scripting inside Game Studio.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows"],
+      "target_platforms": ["Windows", "Linux", "macOS", "Android", "iOS"],
+      "console_note": "No official public console export.",
+      "pricing_summary": "100% free and open-source (MIT) with zero royalties.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (MIT License)",
+      "skill_level": ["intermediate", "advanced"],
+      "best_for": ["3D", "2D", "Indie", "PC"],
+      "notable_games": [
+        {"title": "Community & indie C# titles", "source": "https://www.stride3d.net/"}
+      ],
+      "latest_version_checked": "Stride 4.2",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://www.stride3d.net/",
+        "https://github.com/stride3d/stride"
+      ]
+    },
+    {
+      "id": "solar2d",
+      "name": "Solar2D",
+      "tagline": "MIT-licensed open-source Lua 2D engine (formerly Corona SDK) built for fast mobile games.",
+      "website": "https://solar2d.com/",
+      "docs_url": "https://docs.coronalabs.com/",
+      "license": "MIT License",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": false,
+        "3d_note": "Strictly 2D"
+      },
+      "languages": ["Lua"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Code-first Lua workflow with instant live simulator.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "macOS", "Linux"],
+      "target_platforms": ["Android", "iOS", "Windows", "macOS", "Linux", "Web"],
+      "console_note": "Targets mobile, desktop, and HTML5; no console support.",
+      "pricing_summary": "100% free and open-source (MIT) with zero royalties.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (MIT License)",
+      "skill_level": ["beginner", "intermediate"],
+      "best_for": ["2D", "Mobile", "Indie"],
+      "notable_games": [
+        {"title": "Designer City", "source": "https://solar2d.com/"}
+      ],
+      "latest_version_checked": "Solar2D 2024+",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://solar2d.com/",
+        "https://github.com/coronalabs/corona"
+      ]
+    },
+    {
+      "id": "libgdx",
+      "name": "libGDX",
+      "tagline": "Mature, Apache 2.0-licensed Java/Kotlin cross-platform game development framework.",
+      "website": "https://libgdx.com/",
+      "docs_url": "https://libgdx.com/wiki/",
+      "license": "Apache License 2.0",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": true,
+        "3d_note": "Strong 2D APIs plus 3D rendering support"
+      },
+      "languages": ["Java", "Kotlin"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Code-only framework.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "macOS", "Linux"],
+      "target_platforms": ["Windows", "macOS", "Linux", "Android", "iOS", "Web"],
+      "console_note": "Console ports possible via third-party tools like SwitchGDX / RoboVM.",
+      "pricing_summary": "100% free and open-source (Apache 2.0) with zero royalties.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (Apache 2.0)",
+      "skill_level": ["intermediate", "advanced"],
+      "best_for": ["2D", "Mobile", "Indie", "PC"],
+      "notable_games": [
+        {"title": "Slay the Spire", "source": "https://libgdx.com/showcase/"},
+        {"title": "Mindustry", "source": "https://libgdx.com/showcase/"}
+      ],
+      "latest_version_checked": "libGDX 1.12+",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://libgdx.com/",
+        "https://github.com/libgdx/libgdx"
+      ]
+    },
+    {
+      "id": "haxeflixel",
+      "name": "HaxeFlixel",
+      "tagline": "MIT-licensed 2D Haxe game engine popular for retro pixel-art and Newgrounds-style games.",
+      "website": "https://haxeflixel.com/",
+      "docs_url": "https://haxeflixel.com/documentation/",
+      "license": "MIT License",
+      "open_source": true,
+      "source_available": true,
+      "dimensions": {
+        "2d": true,
+        "3d": false,
+        "3d_note": "Strictly 2D"
+      },
+      "languages": ["Haxe"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Code-first framework.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "macOS", "Linux"],
+      "target_platforms": ["Windows", "macOS", "Linux", "Web", "Android", "iOS"],
+      "console_note": "Consoles possible via Haxe/C++ Lime targets with NDA.",
+      "pricing_summary": "100% free and open-source (MIT) with zero royalties.",
+      "free_tier": true,
+      "zero_royalties": true,
+      "royalties": "0% (MIT License)",
+      "skill_level": ["intermediate", "advanced"],
+      "best_for": ["2D", "Pixel Art", "Web", "Platformer", "Indie"],
+      "notable_games": [
+        {"title": "Friday Night Funkin'", "source": "https://haxeflixel.com/showcase/"},
+        {"title": "Papers, Please (mobile/porting Haxe)", "source": "https://haxeflixel.com/"}
+      ],
+      "latest_version_checked": "HaxeFlixel 5.x",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://haxeflixel.com/",
+        "https://github.com/HaxeFlixel/flixel"
+      ]
+    },
+    {
+      "id": "pico-8",
+      "name": "PICO-8",
+      "tagline": "Fantasy console for making, sharing, and playing tiny retro 2D pixel-art games in Lua.",
+      "website": "https://www.lexaloffle.com/pico-8.php",
+      "docs_url": "https://www.lexaloffle.com/dl/docs/pico-8_manual.html",
+      "license": "Proprietary (One-time purchase)",
+      "open_source": false,
+      "source_available": false,
+      "dimensions": {
+        "2d": true,
+        "3d": false,
+        "3d_note": "128x128 16-color 2D fantasy console"
+      },
+      "languages": ["Lua"],
+      "visual_scripting": false,
+      "visual_scripting_note": "Includes built-in sprite, map, SFX, and music editors alongside Lua code.",
+      "no_code_friendly": false,
+      "editor_platforms": ["Windows", "macOS", "Linux", "Web (PICO-8 Edu)"],
+      "target_platforms": ["Windows", "macOS", "Linux", "Web"],
+      "console_note": "Exports standalone HTML5/desktop binaries; playable in web browsers via cartridges.",
+      "pricing_summary": "$14.99 one-time purchase (Free Education web edition available); zero royalties.",
+      "free_tier": false,
+      "zero_royalties": true,
+      "royalties": "0% ($14.99 one-time)",
+      "skill_level": ["beginner", "intermediate"],
+      "best_for": ["2D", "Pixel Art", "Prototyping", "Platformer", "Indie"],
+      "notable_games": [
+        {"title": "Celeste Classic", "source": "https://www.lexaloffle.com/pico-8.php"}
+      ],
+      "latest_version_checked": "PICO-8 0.2.6",
+      "last_verified": "2026-11-16",
+      "sources": [
+        "https://www.lexaloffle.com/pico-8.php"
+      ]
+    }
+  ]
+}
