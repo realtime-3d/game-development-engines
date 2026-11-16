@@ -20,7 +20,7 @@
 
 ## 2D & 3D Capabilities
 
-- **2D:** Exceptional 2D sprite editor, tilemaps, rooms, sequences, shaders, and fast 2D rendering.
+- **2D:** Dedicated 2D sprite editor, tilemaps, rooms, sequences, shaders, and fast 2D rendering.
 - **3D:** Not a full modern 3D engine. Supports low-level 3D primitives, vertex buffers, and matrix math for stylized/pseudo-3D effects, but lacks a built-in 3D scene editor or PBR pipeline.
 
 ## Editor & Target Platforms
@@ -54,9 +54,9 @@ Per [GameMaker's official pricing](https://gamemaker.io/en/get):
 
 ## Notable Games
 
-- **Undertale** — [GameMaker Showcase](https://gamemaker.io/en/showcase)
-- **Hotline Miami** — [GameMaker Showcase](https://gamemaker.io/en/showcase)
-- **Pizza Tower** — [GameMaker Showcase](https://gamemaker.io/en/showcase)
+- **Undertale**: [GameMaker Showcase](https://gamemaker.io/en/showcase)
+- **Hotline Miami**: [GameMaker Showcase](https://gamemaker.io/en/showcase)
+- **Pizza Tower**: [GameMaker Showcase](https://gamemaker.io/en/showcase)
 
 ## Official Documentation & Links
 
@@ -66,6 +66,6 @@ Per [GameMaker's official pricing](https://gamemaker.io/en/get):
 
 ## Alternatives
 
-- [Godot](godot.md) — Free MIT-licensed 2D/3D engine with no commercial paywall
-- [GDevelop](gdevelop.md) — Open-source no-code event-sheet engine
-- [Construct 3](construct-3.md) — Browser-based 2D event-sheet engine
+- [Godot](godot.md): Free MIT-licensed 2D/3D engine with no commercial paywall
+- [GDevelop](gdevelop.md): Open-source no-code event-sheet engine
+- [Construct 3](construct-3.md): Browser-based 2D event-sheet engine

@@ -1,6 +1,6 @@
 # What Is a Game Engine? (And How to Start Making Games)
 
-A **game development engine** is a software framework that provides the core systems needed to build and run a video game—so you can focus on gameplay, art, and level design instead of rewriting low-level graphics and physics code from scratch.
+A **game development engine** is a software framework that provides the core systems needed to build and run a video game, so you can focus on gameplay, art, and level design instead of rewriting low-level graphics and physics code from scratch.
 
 - **Last Verified:** 2026-11-16
 
@@ -15,7 +15,7 @@ A **game development engine** is a software framework that provides the core sys
 
 ## How to Start Making Your First Game (4 Steps)
 
-1. **Pick a small first genre:** Start with a 2D platformer, top-down arcade game, or visual novel—not an open-world MMO.
+1. **Pick a small first genre:** Start with a 2D platformer, top-down arcade game, or visual novel, not an open-world MMO.
 2. **Choose an engine that matches your coding comfort:**
    - **No coding:** [GDevelop](../engines/gdevelop.md) or [Construct 3](../engines/construct-3.md).
    - **Beginner-friendly coding:** [Godot](../engines/godot.md) (GDScript) or [GameMaker](../engines/gamemaker.md) (GML).

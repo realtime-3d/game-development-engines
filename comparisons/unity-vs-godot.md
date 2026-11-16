@@ -16,7 +16,7 @@
 | **License** | Proprietary | MIT License (Open Source) |
 | **Pricing** | Free <$200k/yr; Pro $2,310/seat/yr | **$0 forever, 0% royalties** |
 | **Languages** | C# | GDScript, C#, C++ (GDExtension) |
-| **2D Workflow** | Very good (2D inside 3D engine) | **Best-in-class dedicated 2D engine** |
+| **2D Workflow** | Very good (2D inside 3D engine) | **Dedicated pixel-coordinate 2D engine** |
 | **3D Capabilities** | Mature (URP / HDRP) | Solid (Forward+ / Mobile / Compatibility) |
 | **Console Support** | Built-in (requires Unity Pro) | Third-party middleware (e.g., W4 Games) |
 | **Editor Size & Speed** | Multi-GB install | ~100 MB, launches in seconds |

@@ -1,6 +1,6 @@
 # Unreal Engine
 
-**Unreal Engine** (developed by Epic Games) is a source-available 3D game engine renowned for photorealistic real-time rendering, AAA production pipelines, and its Blueprints visual scripting system.
+**Unreal Engine** (developed by Epic Games) is a source-available 3D game engine known for photorealistic real-time rendering, AAA production pipelines, and its Blueprints visual scripting system.
 
 - **Latest Version Checked:** Unreal Engine 5.x
 - **License:** Proprietary / Source-available ([Unreal Engine EULA](https://www.unrealengine.com/en-US/eula/unreal))
@@ -17,7 +17,7 @@
 ## Languages & Visual Scripting
 
 - **Primary Language:** C++ (with full engine source access)
-- **Visual Scripting:** **Blueprints** — a production-grade node-based visual scripting system deeply integrated into the editor.
+- **Visual Scripting:** **Blueprints**: a production-grade node-based visual scripting system built into the editor.
 
 ## System Requirements (Unreal Engine 5.x)
 
@@ -28,7 +28,7 @@ Per Epic Games' [official UE5 hardware & software specifications](https://dev.ep
 
 ## 2D & 3D Capabilities
 
-- **3D:** Industry-leading rendering stack including **Lumen** (dynamic global illumination), **Nanite** (virtualized micropolygon geometry), **Niagara** (VFX), **Chaos** (physics/destruction), and **MetaHuman**.
+- **3D:** 3D rendering stack including **Lumen** (dynamic global illumination), **Nanite** (virtualized micropolygon geometry), **Niagara** (VFX), **Chaos** (physics/destruction), and **MetaHuman**.
 - **2D:** Supported via Paper2D and community plugins (e.g., PaperZD), though Unreal is heavily optimized for 3D workflows.
 
 ## Editor & Target Platforms
@@ -53,7 +53,7 @@ According to the [Unreal Engine EULA](https://www.unrealengine.com/en-US/eula/un
 ## Pros & Limitations
 
 **Pros:**
-- Unmatched out-of-the-box 3D visuals, lighting, and world-building tools.
+- Built-in 3D visuals, lighting, and world-building tools.
 - Blueprints enables designers and non-programmers to build complex systems quickly.
 - Full C++ source code access makes deep engine customization and debugging possible.
 - No upfront cost; royalty only triggers after $1M lifetime gross revenue per game.
@@ -65,9 +65,9 @@ According to the [Unreal Engine EULA](https://www.unrealengine.com/en-US/eula/un
 
 ## Notable Games
 
-- **Fortnite** — [Unreal Engine](https://www.unrealengine.com/)
-- **Black Myth: Wukong** — [Unreal Engine Games Showcase](https://www.unrealengine.com/en-US/uses/games)
-- **Senua's Saga: Hellblade II** — [Unreal Engine Games Showcase](https://www.unrealengine.com/en-US/uses/games)
+- **Fortnite**: [Unreal Engine](https://www.unrealengine.com/)
+- **Black Myth: Wukong**: [Unreal Engine Games Showcase](https://www.unrealengine.com/en-US/uses/games)
+- **Senua's Saga: Hellblade II**: [Unreal Engine Games Showcase](https://www.unrealengine.com/en-US/uses/games)
 
 ## Official Documentation & Links
 
@@ -77,6 +77,6 @@ According to the [Unreal Engine EULA](https://www.unrealengine.com/en-US/eula/un
 
 ## Alternatives
 
-- [Unity](unity.md) — Lighter footprint, C#, stronger mobile/2D/web ecosystem
-- [Godot](godot.md) — Free, MIT-licensed, zero royalties, much smaller download
-- [O3DE](../categories/3d-game-engines.md) — Open-source Apache 2.0 / MIT 3D engine
+- [Unity](unity.md): Lighter footprint, C#, stronger mobile/2D/web ecosystem
+- [Godot](godot.md): Free, MIT-licensed, zero royalties, much smaller download
+- [O3DE](../categories/3d-game-engines.md): Open-source Apache 2.0 / MIT 3D engine

@@ -48,7 +48,7 @@
     {
       "id": "unreal-engine",
       "name": "Unreal Engine",
-      "tagline": "High-fidelity 3D engine with Blueprints visual scripting and C++ source access.",
+      "tagline": "Source-available 3D engine with Blueprints visual scripting, C++ source access, and Lumen/Nanite rendering.",
       "website": "https://www.unrealengine.com/",
       "docs_url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-documentation",
       "license": "Unreal Engine EULA (Source-available)",
@@ -57,7 +57,7 @@
       "dimensions": {
         "2d": true,
         "3d": true,
-        "3d_note": "Industry-leading 3D rendering (Lumen, Nanite, Niagara)"
+        "3d_note": "Lumen dynamic global illumination, Nanite virtualized geometry, and Niagara VFX"
       },
       "languages": ["C++", "Blueprints"],
       "visual_scripting": true,
@@ -428,7 +428,7 @@
     {
       "id": "bevy",
       "name": "Bevy",
-      "tagline": "Modern, data-driven ECS game engine built in Rust under MIT/Apache 2.0.",
+      "tagline": "Data-driven Entity Component System (ECS) game engine built in Rust under MIT/Apache 2.0.",
       "website": "https://bevyengine.org/",
       "docs_url": "https://bevyengine.org/learn/",
       "license": "MIT OR Apache-2.0",
@@ -453,8 +453,7 @@
       "skill_level": ["intermediate", "advanced"],
       "best_for": ["2D", "3D", "Indie", "Prototyping"],
       "notable_games": [
-        {"title": "Tiny Glade (custom Rust, Bevy-adjacent ecosystem)", "source": "https://bevyengine.org/"},
-        {"title": "Bevy Jam winners", "source": "https://bevyengine.org/"}
+        {"title": "Bevy Jam community releases", "source": "https://bevyengine.org/"}
       ],
       "latest_version_checked": "Bevy 0.15+",
       "last_verified": "2026-11-16",
@@ -656,7 +655,7 @@
     {
       "id": "pixijs",
       "name": "PixiJS",
-      "tagline": "Ultra-fast MIT-licensed 2D WebGL/WebGPU rendering library for web games and interactive apps.",
+      "tagline": "MIT-licensed 2D WebGL and WebGPU rendering library for web games and interactive apps.",
       "website": "https://pixijs.com/",
       "docs_url": "https://pixijs.com/8.x/guides",
       "license": "MIT License",
@@ -904,8 +903,7 @@
       "skill_level": ["intermediate", "advanced"],
       "best_for": ["2D", "Pixel Art", "Web", "Platformer", "Indie"],
       "notable_games": [
-        {"title": "Friday Night Funkin'", "source": "https://haxeflixel.com/showcase/"},
-        {"title": "Papers, Please (mobile/porting Haxe)", "source": "https://haxeflixel.com/"}
+        {"title": "Friday Night Funkin'", "source": "https://haxeflixel.com/showcase/"}
       ],
       "latest_version_checked": "HaxeFlixel 5.x",
       "last_verified": "2026-11-16",

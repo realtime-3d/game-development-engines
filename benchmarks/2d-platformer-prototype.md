@@ -25,7 +25,7 @@ Every implementation builds the exact same minimal playable slice:
 
 ## Key Observations
 
-- **Fastest to first playable prototype (no code):** **GDevelop** — attaching the built-in *Platformer* behavior to a sprite takes under 2 minutes.
-- **Cleanest 2D code + editor balance:** **Godot** — `CharacterBody2D` and `TileMapLayer` work natively in pixel coordinates with minimal boilerplate.
-- **Smallest & fastest Web build:** **Phaser** — ideal when instant browser loading is critical.
-- **Best if scaling to complex 3D/VR/consoles later:** **Unity** — heavier upfront setup, but unmatched third-party SDK and console ecosystem.
+- **Fastest to first playable prototype (no code):** **GDevelop**: attaching the built-in *Platformer* behavior to a sprite takes under 2 minutes.
+- **Cleanest 2D code + editor balance:** **Godot**: `CharacterBody2D` and `TileMapLayer` work natively in pixel coordinates with minimal boilerplate.
+- **Smallest & fastest Web build:** **Phaser**: ideal when instant browser loading is critical.
+- **Best if scaling to complex 3D/VR/consoles later:** **Unity**: heavier upfront setup, but large third-party SDK and console ecosystem.

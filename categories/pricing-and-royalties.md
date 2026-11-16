@@ -1,6 +1,6 @@
 # Game Engine Pricing & Royalties Comparison
 
-Understanding total cost of ownership—seat licenses, revenue thresholds, royalties, and console fees—prevents painful surprises after launch.
+Understanding total cost of ownership, seat licenses, revenue thresholds, royalties, and console fees, prevents painful surprises after launch.
 
 - **Last Verified:** 2026-11-16
 

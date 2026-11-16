@@ -32,7 +32,7 @@
 
 Per the [Ren'Py License](https://www.renpy.org/doc/html/license.html):
 
-- **Price:** $0 — 100% free for commercial and non-commercial releases.
+- **Price:** $0, 100% free for commercial and non-commercial releases.
 - **Royalties:** 0%.
 
 ## Pros & Limitations
@@ -48,8 +48,8 @@ Per the [Ren'Py License](https://www.renpy.org/doc/html/license.html):
 
 ## Notable Games
 
-- **Doki Doki Literature Club!** — [Ren'Py](https://www.renpy.org/)
-- **Slay the Princess** — [Ren'Py](https://www.renpy.org/)
+- **Doki Doki Literature Club!**: [Ren'Py](https://www.renpy.org/)
+- **Slay the Princess**: [Ren'Py](https://www.renpy.org/)
 
 ## Official Documentation & Links
 
@@ -59,5 +59,5 @@ Per the [Ren'Py License](https://www.renpy.org/doc/html/license.html):
 
 ## Alternatives
 
-- [Godot](godot.md) — Better if you want a visual novel mixed with 2D/3D gameplay
-- [RPG Maker MZ](../categories/rpg-and-visual-novels.md) — Better for tile-based top-down narrative RPGs
+- [Godot](godot.md): Better if you want a visual novel mixed with 2D/3D gameplay
+- [RPG Maker MZ](../categories/rpg-and-visual-novels.md): Better for tile-based top-down narrative RPGs

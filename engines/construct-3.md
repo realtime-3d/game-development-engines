@@ -38,9 +38,9 @@ Per [Construct 3 Personal Plans](https://www.construct.net/en/make-games/buy-con
 ## Pros & Limitations
 
 **Pros:**
-- Zero installation — runs smoothly in any modern browser, including Chromebooks.
+- Zero installation, runs smoothly in any modern browser, including Chromebooks.
 - Very clean event-sheet UX and fast HTML5 exports.
-- Seamless mixing of event sheets with JavaScript/TypeScript.
+- Direct mixing of event sheets with JavaScript and TypeScript.
 
 **Limitations:**
 - Subscription required for anything beyond 25 events or commercial release.
@@ -49,7 +49,7 @@ Per [Construct 3 Personal Plans](https://www.construct.net/en/make-games/buy-con
 
 ## Notable Games
 
-- **The Next Penelope** — [Construct Showcase](https://www.construct.net/en/make-games/showcase)
+- **The Next Penelope**: [Construct Showcase](https://www.construct.net/en/make-games/showcase)
 
 ## Official Documentation & Links
 
@@ -58,6 +58,6 @@ Per [Construct 3 Personal Plans](https://www.construct.net/en/make-games/buy-con
 
 ## Alternatives
 
-- [GDevelop](gdevelop.md) — Free, MIT open-source event-sheet alternative
-- [GameMaker](gamemaker.md) — One-time $99.99 commercial license for 2D
-- [Godot](godot.md) — Free, open-source 2D/3D engine
+- [GDevelop](gdevelop.md): Free, MIT open-source event-sheet alternative
+- [GameMaker](gamemaker.md): One-time $99.99 commercial license for 2D
+- [Godot](godot.md): Free, open-source 2D/3D engine

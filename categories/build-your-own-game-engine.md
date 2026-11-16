@@ -15,7 +15,7 @@ Most developers should **use an existing game engine** if their goal is to ship 
 
 ## Popular Low-Level Libraries for Custom Engines
 
-If you decide to build your own lightweight engine or framework, these battle-tested open-source libraries handle OS windowing, input, audio, and GPU rendering:
+If you decide to build your own lightweight engine or framework, these widely used open-source libraries handle OS windowing, input, audio, and GPU rendering:
 
 - **SDL3 / SDL2 (C):** Industry-standard cross-platform windowing, input, and audio layer.
 - **Raylib (C, with bindings for Python/Go/Rust/C#):** Simple, zero-dependency library for learning 2D/3D graphics programming.

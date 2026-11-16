@@ -38,7 +38,7 @@
 **Pros:**
 - Instant browser startup and tiny web bundle sizes compared to WebAssembly engines.
 - Mature TypeScript definitions and modern Vite/npm workflow.
-- Huge community and thousands of official code examples.
+- Large community and thousands of official code examples.
 
 **Limitations:**
 - Code-first framework with no free built-in visual scene editor.
@@ -47,7 +47,7 @@
 
 ## Notable Games
 
-- **Vampire Survivors (original web prototype)** — [Phaser](https://phaser.io/)
+- **Vampire Survivors (original web prototype)**: [Phaser](https://phaser.io/)
 
 ## Official Documentation & Links
 
@@ -57,6 +57,6 @@
 
 ## Alternatives
 
-- [GDevelop](gdevelop.md) — No-code HTML5/web engine with visual editor
-- [Godot](godot.md) — Full GUI editor with WebAssembly export
-- PixiJS — Lower-level 2D WebGL/WebGPU rendering library
+- [GDevelop](gdevelop.md): No-code HTML5/web engine with visual editor
+- [Godot](godot.md): Full GUI editor with WebAssembly export
+- PixiJS, Lower-level 2D WebGL/WebGPU rendering library

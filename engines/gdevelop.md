@@ -20,7 +20,7 @@
 
 ## 2D & 3D Capabilities
 
-- **2D:** Comprehensive 2D behaviors (Platformer, Top-down, Physics 2.0, Pathfinding), built-in Piskel sprite editor, and particle systems.
+- **2D:** Built-in 2D behaviors (Platformer, Top-down, Physics 2.0, Pathfinding), built-in Piskel sprite editor, and particle systems.
 - **3D:** Native 3D objects, 3D models, and 3D behaviors built into the same event-sheet workflow; best suited for lightweight or stylized 3D rather than heavy AAA scenes.
 
 ## Editor & Target Platforms
@@ -28,14 +28,14 @@
 - **Editor runs on:** Windows, macOS, Linux, Web browser, Android
 - **Export targets:** Web (HTML5), Windows, macOS, Linux, Android, iOS
 
-> **Console note:** No native out-of-the-box console exports.
+> **Console note:** No native built-in console exports.
 
 ## Pricing & License Terms
 
 Per [GDevelop's official pricing](https://gdevelop.io/pricing):
 
 - **Free Tier ($0):** Full access to the open-source MIT engine, 2D/3D tools, and manual local exports with **0% royalties** and commercial rights. Includes basic cloud packaging quotas.
-- **Paid Subscriptions (Silver / Gold, ~$4.99–$9.99/mo):** Optional cloud services — higher daily one-click cloud builds (Android/desktop), more cloud project storage, and unlimited leaderboards/player feedback.
+- **Paid Subscriptions (Silver / Gold, ~$4.99–$9.99/mo):** Optional cloud services, higher daily one-click cloud builds (Android/desktop), more cloud project storage, and unlimited leaderboards/player feedback.
 
 ## Pros & Limitations
 
@@ -51,8 +51,8 @@ Per [GDevelop's official pricing](https://gdevelop.io/pricing):
 
 ## Notable Games
 
-- **Lil BUB's HELLO EARTH** — [GDevelop Games](https://gdevelop.io/games)
-- **Miko Adventures Puffball** — [GDevelop Games](https://gdevelop.io/games)
+- **Lil BUB's HELLO EARTH**: [GDevelop Games](https://gdevelop.io/games)
+- **Miko Adventures Puffball**: [GDevelop Games](https://gdevelop.io/games)
 
 ## Official Documentation & Links
 
@@ -62,6 +62,6 @@ Per [GDevelop's official pricing](https://gdevelop.io/pricing):
 
 ## Alternatives
 
-- [Construct 3](construct-3.md) — Commercial browser-based event-sheet engine
-- [GameMaker](gamemaker.md) — Strong 2D code + GML Visual workflow
-- [Godot](godot.md) — Better for larger projects if you are willing to learn GDScript
+- [Construct 3](construct-3.md): Commercial browser-based event-sheet engine
+- [GameMaker](gamemaker.md): Strong 2D code + GML Visual workflow
+- [Godot](godot.md): Better for larger projects if you are willing to learn GDScript

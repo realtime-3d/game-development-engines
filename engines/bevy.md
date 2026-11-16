@@ -1,6 +1,6 @@
 # Bevy
 
-**Bevy** is a refreshingly simple, data-driven **Entity Component System (ECS)** game engine built in **Rust**, licensed under MIT or Apache 2.0.
+**Bevy** is a data-driven **Entity Component System (ECS)** game engine built in **Rust**, licensed under MIT or Apache 2.0.
 
 - **Latest Version Checked:** Bevy 0.15+
 - **License:** [MIT OR Apache-2.0](https://bevyengine.org/)
@@ -54,6 +54,6 @@
 
 ## Alternatives
 
-- [Godot](godot.md) — Full GUI editor, mature 2D/3D tooling, Rust support via `godot-rust`
-- [Unity](unity.md) — Mature C# commercial ecosystem
-- [Unreal Engine](unreal-engine.md) — AAA 3D with C++ and Blueprints
+- [Godot](godot.md): Full GUI editor, mature 2D/3D tooling, Rust support via `godot-rust`
+- [Unity](unity.md): Mature C# commercial ecosystem
+- [Unreal Engine](unreal-engine.md): AAA 3D with C++ and Blueprints

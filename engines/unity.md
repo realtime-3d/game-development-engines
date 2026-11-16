@@ -53,9 +53,9 @@ Unity canceled the 2023 per-install Runtime Fee and uses a seat-based subscripti
 ## Pros & Limitations
 
 **Pros:**
-- Massive ecosystem of Asset Store packages, tutorials, and third-party SDKs (ads, analytics, multiplayer).
+- Large ecosystem of Asset Store packages, tutorials, and third-party SDKs (ads, analytics, multiplayer).
 - Strong mobile, 2D, 3D, and XR support in a single toolset.
-- C# strikes a practical balance between developer productivity and native performance via IL2CPP.
+- C# combines fast iteration with native performance via IL2CPP.
 
 **Limitations:**
 - Proprietary license; source code is not open.
@@ -64,9 +64,9 @@ Unity canceled the 2023 per-install Runtime Fee and uses a seat-based subscripti
 
 ## Notable Games
 
-- **Hollow Knight** — [Unity Showcase](https://unity.com/madewith/hollow-knight)
-- **Cuphead** — [Unity Made With](https://unity.com/madewith)
-- **Cities: Skylines** — [Unity Made With](https://unity.com/madewith)
+- **Hollow Knight**: [Unity Showcase](https://unity.com/madewith/hollow-knight)
+- **Cuphead**: [Unity Made With](https://unity.com/madewith)
+- **Cities: Skylines**: [Unity Made With](https://unity.com/madewith)
 
 ## Official Documentation & Links
 
@@ -76,6 +76,6 @@ Unity canceled the 2023 per-install Runtime Fee and uses a seat-based subscripti
 
 ## Alternatives
 
-- [Godot](godot.md) — MIT-licensed open-source 2D/3D engine with zero fees
-- [Unreal Engine](unreal-engine.md) — Better suited for photorealistic AAA 3D
-- [Stride](stride.md) — Open-source C# 3D/2D alternative
+- [Godot](godot.md): MIT-licensed open-source 2D/3D engine with zero fees
+- [Unreal Engine](unreal-engine.md): Better suited for photorealistic AAA 3D
+- [Stride](stride.md): Open-source C# 3D/2D alternative

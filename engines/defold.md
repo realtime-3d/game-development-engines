@@ -21,7 +21,7 @@
 
 ## 2D & 3D Capabilities
 
-- **2D:** Battle-tested 2D rendering, Spine/atlas support, GUI layouts, and Box2D physics.
+- **2D:** Mature 2D rendering, Spine/atlas support, GUI layouts, and Box2D physics.
 - **3D:** Native 3D mesh, PBR material, and physics support.
 
 ## Editor & Target Platforms
@@ -43,7 +43,7 @@ Per the [Defold License](https://defold.com/license/) and [Defold Product](https
 **Pros:**
 - Extremely small runtime footprint and fast Web/mobile load times.
 - 100% free forever, including official console support (for approved console devs).
-- Stable, battle-tested in commercial mobile games.
+- Proven stability in commercial mobile games.
 
 **Limitations:**
 - Smaller community and fewer tutorials than Unity or Godot.
@@ -52,8 +52,8 @@ Per the [Defold License](https://defold.com/license/) and [Defold Product](https
 
 ## Notable Games
 
-- **Family Island** — [Defold Showcase](https://defold.com/showcase/)
-- **Void Scrappers** — [Defold Showcase](https://defold.com/showcase/)
+- **Family Island**: [Defold Showcase](https://defold.com/showcase/)
+- **Void Scrappers**: [Defold Showcase](https://defold.com/showcase/)
 
 ## Official Documentation & Links
 
@@ -63,6 +63,6 @@ Per the [Defold License](https://defold.com/license/) and [Defold Product](https
 
 ## Alternatives
 
-- [Godot](godot.md) — OSI MIT license, GDScript/C#, larger community
-- [GameMaker](gamemaker.md) — Visual + GML 2D workflow
-- [Cocos Creator](../data/engines.json) — TypeScript-based mobile/web engine
+- [Godot](godot.md): OSI MIT license, GDScript/C#, larger community
+- [GameMaker](gamemaker.md): Visual + GML 2D workflow
+- [Cocos Creator](../data/engines.json): TypeScript-based mobile/web engine

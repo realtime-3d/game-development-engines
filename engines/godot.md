@@ -24,7 +24,7 @@
 ## 2D & 3D Capabilities
 
 - **2D:** Dedicated pixel-coordinate 2D engine (not 2D faked inside 3D), with TileMapLayer, 2D lights/shadows, skeletal animation, and crisp pixel-art scaling.
-- **3D:** Three rendering backends in Godot 4 — **Forward+** (desktop Vulkan/D3D12/Metal), **Mobile** (mobile-optimized), and **Compatibility** (OpenGL ES 3 / WebGL 2).
+- **3D:** Three rendering backends in Godot 4, **Forward+** (desktop Vulkan/D3D12/Metal), **Mobile** (mobile-optimized), and **Compatibility** (OpenGL ES 3 / WebGL 2).
 
 ## Editor & Target Platforms
 
@@ -37,7 +37,7 @@
 
 Per the official [Godot License page](https://godotengine.org/license/):
 
-- **Price:** $0 — 100% free forever.
+- **Price:** $0, 100% free forever.
 - **Royalties:** 0%.
 - **License:** MIT License. You own your games completely, can modify the engine source code, and never owe fees or revenue shares.
 
@@ -46,7 +46,7 @@ Per the official [Godot License page](https://godotengine.org/license/):
 **Pros:**
 - Completely free, open-source (MIT), no subscriptions, no royalties, no account required.
 - Fast startup, tiny download size, and clean scene/node composition model.
-- Best-in-class dedicated 2D workflow among general-purpose 2D/3D engines.
+- Dedicated pixel-coordinate 2D workflow among general-purpose 2D/3D engines.
 
 **Limitations:**
 - Console publishing requires third-party porting middleware or custom NDA builds.
@@ -55,9 +55,9 @@ Per the official [Godot License page](https://godotengine.org/license/):
 
 ## Notable Games
 
-- **Brotato** — [Godot Showcase](https://godotengine.org/showcase/)
-- **Cassette Beasts** — [Godot Showcase](https://godotengine.org/showcase/)
-- **Dome Keeper** — [Godot Showcase](https://godotengine.org/showcase/)
+- **Brotato**: [Godot Showcase](https://godotengine.org/showcase/)
+- **Cassette Beasts**: [Godot Showcase](https://godotengine.org/showcase/)
+- **Dome Keeper**: [Godot Showcase](https://godotengine.org/showcase/)
 
 ## Official Documentation & Links
 
@@ -67,6 +67,6 @@ Per the official [Godot License page](https://godotengine.org/license/):
 
 ## Alternatives
 
-- [Unity](unity.md) — Larger 3D/mobile ecosystem and built-in console export (paid Pro tier)
-- [GameMaker](gamemaker.md) — Streamlined 2D workflow with GML Visual
-- [Defold](defold.md) — Lightweight Lua engine with built-in console support
+- [Unity](unity.md): Larger 3D/mobile ecosystem and built-in console export (paid Pro tier)
+- [GameMaker](gamemaker.md): Streamlined 2D workflow with GML Visual
+- [Defold](defold.md): Lightweight Lua engine with built-in console support
