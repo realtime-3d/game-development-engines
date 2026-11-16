@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Development Engines: Compare 25 Game Engines</title>
+  <meta name="description" content="Compare 25 commercial and open-source game development engines across 2D, 3D, mobile, web, PC, and consoles with verified pricing and royalties." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400;500&family=Host+Grotesk:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <nav class="topbar" aria-label="Primary navigation">
+      <a class="wordmark" href="#top">Game Development Engines</a>
+      <div class="topbar-links">
+        <a class="nav-link" href="#finder">Finder</a>
+        <a class="nav-link" href="#matrix">Matrix</a>
+        <a class="nav-link" href="#guides">Guides</a>
+        <a class="nav-link" href="https://github.com/realtime-3d/game-development-engines" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </nav>
+
+    <main id="top" class="container">
+      <section class="hero" aria-label="Overview">
+        <div class="hero-copy">
+          <h1>Compare 25 game engines without guesswork</h1>
+          <p class="lede">Compare 2D, 3D, mobile, web, and console engines by license and royalties.</p>
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#finder">Open engine finder</a>
+            <a class="btn" href="#matrix">View full matrix</a>
+          </div>
+        </div>
+
+        <div class="hero-panel" aria-label="Dataset summary">
+          <div class="stat-row">
+            <span class="stat-label">Engines verified</span>
+            <span class="stat-value">25</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-label">Open-source engines (MIT / Apache / zlib / Ms-PL)</span>
+            <span class="stat-value">16</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-label">Zero-royalty commercial options</span>
+            <span class="stat-value">23</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-label">Last verified against official docs</span>
+            <span class="stat-value" id="verified-stamp">2026-11-16</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="finder" class="section" aria-label="Interactive engine finder">
+        <div class="section-head">
+          <div>
+            <h2>Interactive engine finder</h2>
+            <p class="section-lede">Filter by dimensions, target platforms, programming language, and commercial licensing terms.</p>
+          </div>
+          <div class="bench-reading" aria-live="polite">
+            <span class="reading" id="reading-count">25</span>
+            <span class="reading-unit" id="count">Loading engines…</span>
+          </div>
+        </div>
+
+        <div class="controls-panel" aria-label="Engine filters">
+          <div class="controls-grid">
+            <div class="control-group control-search">
+              <label for="search">Search by engine, license, or genre</label>
+              <input id="search" type="text" placeholder="e.g. Godot, pixel art, Rust, mobile…" />
+            </div>
+
+            <div class="control-group">
+              <label for="dimension">Dimensions</label>
+              <select id="dimension">
+                <option value="all">2D or 3D</option>
+                <option value="2d">2D</option>
+                <option value="3d">3D</option>
+              </select>
+            </div>
+
+            <div class="control-group">
+              <label for="platform">Target platform</label>
+              <select id="platform">
+                <option value="all">Any platform</option>
+                <option value="Windows">Windows</option>
+                <option value="macOS">macOS</option>
+                <option value="Linux">Linux</option>
+                <option value="Android">Android</option>
+                <option value="iOS">iOS</option>
+                <option value="Web">Web (HTML5/Wasm)</option>
+                <option value="Consoles">Consoles</option>
+              </select>
+            </div>
+
+            <div class="control-group">
+              <label for="language">Language</label>
+              <select id="language">
+                <option value="all">Any language</option>
+              </select>
+            </div>
+
+            <div class="control-group">
+              <label for="skill">Experience level</label>
+              <select id="skill">
+                <option value="all">Any level</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="toggles-bar">
+            <div class="toggles">
+              <label class="toggle"><input id="freeOnly" type="checkbox" /> <span>Free tier available</span></label>
+              <label class="toggle"><input id="zeroRoyaltyOnly" type="checkbox" /> <span>0% royalties</span></label>
+              <label class="toggle"><input id="openSourceOnly" type="checkbox" /> <span>Open source</span></label>
+              <label class="toggle"><input id="noCodeOnly" type="checkbox" /> <span>No-code friendly</span></label>
+            </div>
+            <button id="reset" class="btn btn--primary" type="button">Reset filters</button>
+          </div>
+        </div>
+
+        <div id="grid" class="panels-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="matrix" class="section" aria-label="Full comparison matrix">
+        <div class="section-head">
+          <div>
+            <h2>Full comparison matrix</h2>
+            <p class="section-lede">Side-by-side specifications for all 25 engines, including console porting caveats.</p>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table class="matrix-table">
+            <thead>
+              <tr>
+                <th>Engine</th>
+                <th>2D</th>
+                <th>3D</th>
+                <th>Languages</th>
+                <th>Open source</th>
+                <th>Royalties</th>
+                <th>Target platforms</th>
+              </tr>
+            </thead>
+            <tbody id="matrix-body">
+              <tr>
+                <td colspan="7">Loading matrix…</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="footnote">Console exports on PlayStation, Xbox, and Nintendo Switch require formal platform-holder approval. Godot console builds use third-party middleware due to MIT licensing.</p>
+      </section>
+
+      <section id="guides" class="section" aria-label="Comparisons and guides">
+        <div class="section-head">
+          <div>
+            <h2>Comparisons, categories, and benchmarks</h2>
+            <p class="section-lede">Deep-dive documentation in the repository, backed by official license and pricing sources.</p>
+          </div>
+        </div>
+
+        <div class="guides-grid">
+          <div class="guide-panel">
+            <h3>Head-to-head comparisons</h3>
+            <ul class="guide-list">
+              <li><a href="https://github.com/realtime-3d/game-development-engines/blob/main/comparisons/unity-vs-unreal-engine.md" target="_blank" rel="noopener">Unity vs Unreal Engine</a></li>
+              <li><a href="https://github.com/realtime-3d/game-development-engines/blob/main/comparisons/unity-vs-godot.md" target="_blank" rel="noopener">Unity vs Godot</a></li>
+              <li><a href="https://github.com/realtime-3d/game-development-engines/blob/main/comparisons/unreal-engine-vs-godot.md" target="_blank" rel="noopener">Unreal Engine vs Godot</a></li>
+              <li><a href="https://github.com/realtime-3d/game-development-engines/blob/main/comparisons/godot-vs-gamemaker.md" target="_blank" rel="noopener">Godot vs GameMaker</a></li>
+              <li><a href="https://github.com/realtime-3d/game-development-engines/blob/main/comparisons/gdevelop-vs-gamemaker.md" target="_blank" rel="noopener">GDevelop vs GameMaker</a></li>
+            </ul>
+          </div>
+
+          <div class="guide-panel">
+            <h3>Guides by intent and platform</h3>
+            <ul class="guide-list">
+              <li><a href="https://github.com/realtime-3d/game-development-engines/blob/main/categories/beginners.md" target="_blank" rel="noopener">Best engines for beginners</a></li>
+              <li><a href="https://github.com/realtime-3d/game-development-engines/blob/main/categories/no-code.md" target="_blank" rel="noopener">Game engines without coding</a></li>
+              <li><a href="https://github.com/realtime-3d/game-development-engines/blob/main/categories/2d-game-engines.md" target="_blank" rel="noopener">2D game engines</a></li>
+              <li><a href="https://github.com/realtime-3d/game-development-engines/blob/main/categories/3d-game-engines.md" target="_blank" rel="noopener">3D game engines</a></li>
+              <li><a href="https://github.com/realtime-3d/game-development-engines/blob/main/categories/pricing-and-royalties.md" target="_blank" rel="noopener">Pricing and royalties comparison</a></li>
+            </ul>
+          </div>
+
+          <div class="guide-panel">
+            <h3>Practical benchmark and data</h3>
+            <ul class="guide-list">
+              <li><a href="https://github.com/realtime-3d/game-development-engines/blob/main/benchmarks/2d-platformer-prototype.md" target="_blank" rel="noopener">2D platformer micro-benchmark (5 engines)</a></li>
+              <li><a href="https://github.com/realtime-3d/game-development-engines/blob/main/categories/open-source-game-engines.md" target="_blank" rel="noopener">Open-source game engines</a></li>
+              <li><a href="https://github.com/realtime-3d/game-development-engines/blob/main/categories/web-html5-game-engines.md" target="_blank" rel="noopener">Web and HTML5 game engines</a></li>
+              <li><a href="https://github.com/realtime-3d/game-development-engines/blob/main/categories/mobile-game-engines.md" target="_blank" rel="noopener">Mobile game engines (iOS and Android)</a></li>
+              <li><a href="https://github.com/realtime-3d/game-development-engines/blob/main/data/engines.json" target="_blank" rel="noopener">Raw JSON dataset (engines.json)</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <span>Game Development Engines: The Complete Open Guide</span>
+        <span>MIT License · <a href="https://github.com/realtime-3d/game-development-engines" target="_blank" rel="noopener">realtime-3d/game-development-engines</a></span>
+      </div>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
