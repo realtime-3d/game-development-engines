@@ -30,12 +30,20 @@ body {
 }
 
 .wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
   color: var(--color-ink);
   font-family: var(--font-display);
   font-weight: var(--display-weight);
   font-size: var(--text-title);
   letter-spacing: var(--tracking-display);
   text-decoration: none;
+}
+
+.brand-mark {
+  color: var(--color-cool);
+  flex-shrink: 0;
 }
 
 .wordmark:hover {
