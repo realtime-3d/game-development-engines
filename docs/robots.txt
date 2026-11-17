@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://realtime-3d.github.io/game-development-engines/sitemap.xml
