@@ -1,6 +1,6 @@
 # Unity vs Godot (2026 Comparison)
 
-**Unity** and **Godot** are the two most popular choices for indie 2D and 3D developers. Unity offers a massive commercial ecosystem and built-in console tooling; Godot offers complete MIT open-source freedom, zero fees, and a fast, lightweight workflow.
+**Unity** and **Godot** are the two most popular choices for indie 2D and 3D developers. Unity has a large commercial ecosystem and built-in console tooling; Godot has an MIT open-source license, zero fees, and a lightweight editor.
 
 - **Last Verified:** 2026-11-16
 
@@ -21,7 +21,7 @@
 | **Console Support** | Built-in (requires Unity Pro) | Third-party middleware (e.g., W4 Games) |
 | **Editor Size & Speed** | Multi-GB install | ~100 MB, launches in seconds |
 
-## Key Trade-offs
+## Main Trade-offs
 
 1. **Licensing & Risk:** With Godot (MIT), no company can ever change your terms, require seat upgrades, or add fees. Unity canceled its 2023 Runtime Fee and made the splash screen optional in Unity 6, but remains proprietary.
 2. **2D Development:** Godot uses true pixel coordinates and a dedicated 2D renderer, making 2D and pixel-art setups noticeably cleaner than Unity's world-unit approach.

@@ -21,4 +21,4 @@ Open-source game engines give you full access to the source code under an OSI-ap
 | **libGDX** | Apache 2.0 | 2D & 3D | Java, Kotlin | No (Code-first) |
 | **Three.js / Babylon.js / PixiJS** | MIT / Apache 2.0 | 2D / 3D (Web) | JS, TypeScript | Library / Web tools |
 
-> **Note on "Source-Available" vs "Open Source":** [Unreal Engine](../engines/unreal-engine.md) and [Defold](../engines/defold.md) provide public source code, but their licenses include commercial/redistribution restrictions (royalties or non-compete clauses), so they are classified as **source-available** rather than OSI open-source.
+> **Note on "Source-Available" vs "Open Source":** [Unreal Engine](../engines/unreal-engine.md) and [Defold](../engines/defold.md) provide public source code, but their licenses include commercial/redistribution restrictions (royalties or non-compete clauses), so they are **source-available** licenses, not OSI open-source.

@@ -165,7 +165,7 @@
     {
       "id": "gdevelop",
       "name": "GDevelop",
-      "tagline": "Open-source no-code 2D/3D game engine powered by an intuitive event sheet system.",
+      "tagline": "Open-source no-code 2D/3D game engine built around an event-sheet system.",
       "website": "https://gdevelop.io/",
       "docs_url": "https://wiki.gdevelop.io/",
       "license": "MIT License (Core engine & editor)",
@@ -183,7 +183,7 @@
       "editor_platforms": ["Windows", "macOS", "Linux", "Web", "Android"],
       "target_platforms": ["Windows", "macOS", "Linux", "Android", "iOS", "Web"],
       "console_note": "No native console export out of the box.",
-      "pricing_summary": "Core engine & manual exports are 100% free (MIT); optional cloud build/storage plans start around $4.99–$9.99/mo.",
+      "pricing_summary": "Core engine & manual exports are 100% free (MIT); optional cloud build/storage plans start around $4.99-$9.99/mo.",
       "free_tier": true,
       "zero_royalties": true,
       "royalties": "0% (MIT core; paid plans only for optional cloud builds/services)",
@@ -335,7 +335,7 @@
       "editor_platforms": ["Windows", "macOS"],
       "target_platforms": ["Windows", "macOS", "Web", "Android", "iOS"],
       "console_note": "Mobile requires Cordova/Capacitor wrapping; consoles require third-party porting.",
-      "pricing_summary": "$69.99–$79.99 one-time purchase (frequently discounted); zero royalties.",
+      "pricing_summary": "$69.99-$79.99 one-time purchase (frequently discounted); zero royalties.",
       "free_tier": false,
       "zero_royalties": true,
       "royalties": "0% (one-time license)",
@@ -474,7 +474,7 @@
       "dimensions": {
         "2d": true,
         "3d": true,
-        "3d_note": "Supports full 3D PBR rendering alongside industry-proven 2D tools"
+        "3d_note": "Supports full 3D PBR rendering alongside established 2D tools"
       },
       "languages": ["TypeScript", "JavaScript", "C++ (Engine)"],
       "visual_scripting": false,
@@ -520,7 +520,7 @@
       "no_code_friendly": false,
       "editor_platforms": ["Windows", "macOS", "Linux"],
       "target_platforms": ["Windows", "macOS", "Linux", "Android", "iOS", "Consoles"],
-      "console_note": "Proven console track record (Switch, PlayStation, Xbox) for registered console developers.",
+      "console_note": "Console support (Switch, PlayStation, Xbox) verified for registered console developers.",
       "pricing_summary": "100% free and open-source (Ms-PL) with zero royalties.",
       "free_tier": true,
       "zero_royalties": true,
@@ -775,7 +775,7 @@
       "dimensions": {
         "2d": true,
         "3d": true,
-        "3d_note": "Modern C#/.NET 3D PBR pipeline with Vulkan/Direct3D 12"
+        "3d_note": "C#/.NET 8+ 3D PBR pipeline with Vulkan/Direct3D 12"
       },
       "languages": ["C#"],
       "visual_scripting": false,
@@ -840,7 +840,7 @@
     {
       "id": "libgdx",
       "name": "libGDX",
-      "tagline": "Mature, Apache 2.0-licensed Java/Kotlin cross-platform game development framework.",
+      "tagline": "Apache 2.0-licensed Java/Kotlin cross-platform game development framework.",
       "website": "https://libgdx.com/",
       "docs_url": "https://libgdx.com/wiki/",
       "license": "Apache License 2.0",

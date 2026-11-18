@@ -16,5 +16,5 @@ Building a multiplayer game involves two separate decisions: the **game engine**
 
 ## Dedicated Game Servers & Backend Services
 
-- **Peer-to-Peer / Listen Server (with Relay):** Best for 2–8 player co-op games where one player hosts and a relay (Steam Networking Sockets, Epic Online Services, Unity Relay) handles NAT traversal without renting dedicated servers.
+- **Peer-to-Peer / Listen Server (with Relay):** Best for 2-8 player co-op games where one player hosts and a relay (Steam Networking Sockets, Epic Online Services, Unity Relay) handles NAT traversal without renting dedicated servers.
 - **Authoritative Dedicated Servers:** Required for competitive PvP or persistent worlds to prevent cheating. Common backend frameworks include **Nakama** (open-source, Go/Lua/TS), **Colyseus** (open-source, Node.js/TS), **Agones** (Kubernetes game server orchestration), and managed services like **PlayFab** or **Photon**.

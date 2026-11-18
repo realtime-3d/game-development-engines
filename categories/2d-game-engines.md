@@ -1,6 +1,6 @@
 # Best 2D Game Engines
 
-2D games benefit from engines with native pixel coordinates, fast sprite batching, tilemap editors, and clean 2D physics, rather than forcing 2D into a heavy 3D pipeline.
+2D games work best in engines with native pixel coordinates, fast sprite batching, tilemap editors, and dedicated 2D physics.
 
 - **Last Verified:** 2026-11-16
 

@@ -17,13 +17,13 @@ Every implementation builds the exact same minimal playable slice:
 
 | Metric | Godot 4.7.x | Unity 6 | GameMaker | GDevelop 5 | Phaser 3/4 |
 | --- | --- | --- | --- | --- | --- |
-| **Install / Setup Size** | ~100 MB (no account) | ~5–10+ GB (Unity Hub + Modules) | ~500 MB | ~200 MB (or 0 MB in browser) | `npm install phaser` (~1.5 MB) |
-| **Cold Editor Launch** | ~2–4 seconds | ~15–40 seconds | ~4–8 seconds | ~2–5 seconds | Instant (VS Code + Vite) |
+| **Install / Setup Size** | ~100 MB (no account) | ~5-10+ GB (Unity Hub + Modules) | ~500 MB | ~200 MB (or 0 MB in browser) | `npm install phaser` (~1.5 MB) |
+| **Cold Editor Launch** | ~2-4 seconds | ~15-40 seconds | ~4-8 seconds | ~2-5 seconds | Instant (VS Code + Vite) |
 | **Built-in Platformer Physics** | `CharacterBody2D` (`move_and_slide`) | `Rigidbody2D` + custom controller | Custom collision / `place_meeting` | Built-in **Platformer Behavior** | Arcade Physics (`setCollideWorldBounds`) |
-| **Web Export Footprint** | ~15–30 MB (Wasm) | ~15–35 MB (WebGL/Wasm) | ~3–6 MB (JS/HTML5) | ~2–5 MB (JS/HTML5) | **< 1.5 MB** (JS/HTML5) |
+| **Web Export Footprint** | ~15-30 MB (Wasm) | ~15-35 MB (WebGL/Wasm) | ~3-6 MB (JS/HTML5) | ~2-5 MB (JS/HTML5) | **< 1.5 MB** (JS/HTML5) |
 | **Main Friction Point** | Web C# / SharedArrayBuffer caveats | Heavy project creation & domain reloads | Free tier lacks commercial export | Event sheets get verbose at scale | No built-in visual level editor |
 
-## Key Observations
+## Observations
 
 - **Fastest to first playable prototype (no code):** **GDevelop**: attaching the built-in *Platformer* behavior to a sprite takes under 2 minutes.
 - **Cleanest 2D code + editor balance:** **Godot**: `CharacterBody2D` and `TileMapLayer` work natively in pixel coordinates with minimal boilerplate.

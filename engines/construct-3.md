@@ -38,7 +38,7 @@ Per [Construct 3 Personal Plans](https://www.construct.net/en/make-games/buy-con
 ## Pros & Limitations
 
 **Pros:**
-- Zero installation, runs smoothly in any modern browser, including Chromebooks.
+- Zero installation, runs in any current browser, including Chromebooks.
 - Very clean event-sheet UX and fast HTML5 exports.
 - Direct mixing of event sheets with JavaScript and TypeScript.
 

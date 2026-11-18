@@ -30,7 +30,7 @@ Compare game engines for 2D, 3D, mobile, PC, web and consoles. Find out which en
 | **[Phaser](engines/phaser.md)** | ✓ | No | JavaScript, TypeScript | Optional paid editor | **✓ (MIT)** | **$0, 0% royalty** | Web, PC/Mobile (wrapped) |
 | **[Construct 3](engines/construct-3.md)** | ✓ | Limited | Event Sheets, JS, TS | ✓ (Event Sheets) | No | Free (25 events); ~$15.99/mo or ~$119/yr | Web, PC, Mobile, Xbox |
 | **[Defold](engines/defold.md)** | ✓ | ✓ | Lua, C/C++ | No | Source-available | **$0 forever, 0% royalty** | PC, Mobile, Web, Consoles* |
-| **[RPG Maker MZ](categories/rpg-and-visual-novels.md)** | ✓ | No | Event Commands, JS | ✓ | No | $69.99–$79.99 once; 0% royalty | PC, Web, Mobile (wrapped) |
+| **[RPG Maker MZ](categories/rpg-and-visual-novels.md)** | ✓ | No | Event Commands, JS | ✓ | No | $69.99-$79.99 once; 0% royalty | PC, Web, Mobile (wrapped) |
 | **[Ren'Py](engines/renpy.md)** | ✓ | No | Ren'Py Script, Python | Script-based | **✓ (MIT)** | **$0, 0% royalty** | PC, Mobile, Web |
 | **LÖVE (Love2D)** | ✓ | No | Lua | No | **✓ (zlib)** | **$0, 0% royalty** | PC, Mobile, Web |
 | **[Bevy](engines/bevy.md)** | ✓ | ✓ | Rust | No | **✓ (MIT/Apache 2.0)** | **$0, 0% royalty** | PC, Web, Mobile |

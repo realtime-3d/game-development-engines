@@ -21,7 +21,7 @@
 ## 2D & 3D Capabilities
 
 - **2D:** Dedicated 2D sprite editor, tilemaps, rooms, sequences, shaders, and fast 2D rendering.
-- **3D:** Not a full modern 3D engine. Supports low-level 3D primitives, vertex buffers, and matrix math for stylized/pseudo-3D effects, but lacks a built-in 3D scene editor or PBR pipeline.
+- **3D:** Not a full 3D engine. Supports low-level 3D primitives, vertex buffers, and matrix math for stylized/pseudo-3D effects, but lacks a built-in 3D scene editor or PBR pipeline.
 
 ## Editor & Target Platforms
 
@@ -45,11 +45,11 @@ Per [GameMaker's official pricing](https://gamemaker.io/en/get):
 **Pros:**
 - Very fast 2D iteration loop from idea to playable prototype.
 - One-time $99.99 commercial license for PC/mobile/web with zero royalties.
-- Proven track record of commercially successful indie hits.
+- Long track record of shipped commercial indie games.
 
 **Limitations:**
 - Free tier cannot be used for commercial releases.
-- Not designed for modern 3D games.
+- Not designed for 3D games.
 - Console exports require the $79.99/mo Enterprise subscription.
 
 ## Notable Games

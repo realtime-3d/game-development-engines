@@ -17,7 +17,7 @@
 | **Commercial Price** | **$0** | **$99.99 one-time** (Enterprise $79.99/mo for consoles) |
 | **Languages** | GDScript, C#, C++ | GML, GML Visual |
 | **Visual Scripting** | Third-party plugin (Orchestrator) | **GML Visual built-in** |
-| **2D Capabilities** | Dedicated 2D engine | Industry-proven 2D engine |
+| **2D Capabilities** | Dedicated 2D engine | Dedicated 2D engine |
 | **3D Capabilities** | Full 3D engine | Primitive 3D only |
 | **Console Support** | Third-party porting partners | Built-in with Enterprise subscription |
 

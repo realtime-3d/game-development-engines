@@ -31,13 +31,13 @@
 ## Pricing & License Terms
 
 - **Framework:** 100% free and open-source under the **MIT License** ([Phaser](https://phaser.io/)). Zero royalties.
-- **Optional Tooling:** Phaser Editor offers optional paid subscriptions/licenses for visual scene editing.
+- **Optional Tooling:** Phaser Editor has optional paid plans for visual scene editing.
 
 ## Pros & Limitations
 
 **Pros:**
 - Instant browser startup and tiny web bundle sizes compared to WebAssembly engines.
-- Mature TypeScript definitions and modern Vite/npm workflow.
+- Complete TypeScript definitions and standard Vite/npm workflow.
 - Large community and thousands of official code examples.
 
 **Limitations:**

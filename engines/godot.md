@@ -1,6 +1,6 @@
 # Godot
 
-**Godot** is a free, open-source 2D and 3D game engine distributed under the permissive MIT License. It features a node-and-scene architecture, a lightweight editor (~100 MB), and zero royalties or licensing fees.
+**Godot** is a free, open-source 2D and 3D game engine under the MIT License. It uses a node-and-scene architecture, ships in a ~100 MB editor, and charges zero royalties.
 
 - **Latest Version Checked:** Godot 4.7.2 (with 3.6.x LTS branch)
 - **License:** [MIT License](https://godotengine.org/license/)
@@ -68,5 +68,5 @@ Per the official [Godot License page](https://godotengine.org/license/):
 ## Alternatives
 
 - [Unity](unity.md): Larger 3D/mobile ecosystem and built-in console export (paid Pro tier)
-- [GameMaker](gamemaker.md): Streamlined 2D workflow with GML Visual
+- [GameMaker](gamemaker.md): Dedicated 2D workflow with GML Visual
 - [Defold](defold.md): Lightweight Lua engine with built-in console support

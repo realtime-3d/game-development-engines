@@ -20,7 +20,7 @@
 
 ## 2D & 3D Capabilities
 
-- **2D:** Purpose-built for 2D character portraits, backgrounds, animated transforms (ATL), and customizable UI screens.
+- **2D:** Built for 2D character portraits, backgrounds, animated transforms (ATL), and customizable UI screens.
 - **3D:** 3D camera stage for parallax depth effects; not a 3D game engine.
 
 ## Editor & Target Platforms

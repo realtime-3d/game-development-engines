@@ -21,7 +21,7 @@
 ## 2D & 3D Capabilities
 
 - **2D:** Sprites, texture atlases, tilemaps, 2D camera, and community physics (`avian2d`, `bevy_rapier2d`).
-- **3D:** Modern wgpu-based PBR renderer supporting Vulkan, Metal, DirectX 12, and WebGPU/WebGL2.
+- **3D:** wgpu-based PBR renderer supporting Vulkan, Metal, DirectX 12, and WebGPU/WebGL2.
 
 ## Editor & Target Platforms
 
@@ -42,7 +42,7 @@
 - Active, fast-moving open-source community.
 
 **Limitations:**
-- No mature built-in GUI editor yet (code-first workflow).
+- No built-in GUI editor yet (code-first workflow).
 - Breaking API changes between minor releases while approaching 1.0.
 - No official console export targets.
 
@@ -54,6 +54,6 @@
 
 ## Alternatives
 
-- [Godot](godot.md): Full GUI editor, mature 2D/3D tooling, Rust support via `godot-rust`
-- [Unity](unity.md): Mature C# commercial ecosystem
+- [Godot](godot.md): Full GUI editor, complete 2D/3D tooling, Rust support via `godot-rust`
+- [Unity](unity.md): Established C# commercial ecosystem
 - [Unreal Engine](unreal-engine.md): AAA 3D with C++ and Blueprints

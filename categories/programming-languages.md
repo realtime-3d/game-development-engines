@@ -1,6 +1,6 @@
 # Programming Languages for Game Development (2026 Guide)
 
-Choosing a game engine often comes down to which programming language you already know, or want to learn. This guide maps every major game engine to its scripting and native languages.
+Choosing a game engine often comes down to which programming language you already know or want to learn.
 
 - **Last Verified:** 2026-11-16
 

@@ -1,6 +1,6 @@
 # What Is a Game Engine? (And How to Start Making Games)
 
-A **game development engine** is a software framework that provides the core systems needed to build and run a video game, so you can focus on gameplay, art, and level design instead of rewriting low-level graphics and physics code from scratch.
+A **game development engine** is a software framework that handles rendering, physics, audio, input, and asset loading so you can build gameplay and levels without writing low-level systems from scratch.
 
 - **Last Verified:** 2026-11-16
 

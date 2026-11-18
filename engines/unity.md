@@ -23,13 +23,13 @@
 
 Per [Unity 6 official system requirements](https://docs.unity3d.com/Manual/system-requirements.html):
 
-- **Windows:** Windows 10 (21H1+ X64) or Windows 11 (X64/Arm64), DX10/11/12 or Vulkan GPU, minimum **8 GB RAM** (16–32 GB recommended for URP/HDRP projects).
+- **Windows:** Windows 10 (21H1+ X64) or Windows 11 (X64/Arm64), DX10/11/12 or Vulkan GPU, minimum **8 GB RAM** (16-32 GB recommended for URP/HDRP projects).
 - **macOS & Apple Silicon:** macOS Big Sur (11) or newer on **Apple Silicon (M1 or above)** or Intel X64 with Metal-capable GPUs. Apple visionOS builds require a native Apple Silicon macOS Unity Editor and Xcode 15+.
 
 ## 2D & 3D Capabilities
 
 - **2D:** Dedicated 2D physics (Box2D), Tilemap editor, 2D skeletal animation, 2D lights/URP 2D renderer.
-- **3D:** Universal Render Pipeline (URP) for mobile/cross-platform and High Definition Render Pipeline (HDRP) for high-end PC/console visuals, plus mature terrain, animation (Mecanim), and particle (VFX Graph) systems.
+- **3D:** Universal Render Pipeline (URP) for mobile/cross-platform and High Definition Render Pipeline (HDRP) for high-end PC/console visuals, plus terrain, animation (Mecanim), and particle (VFX Graph) systems.
 
 ## Editor & Target Platforms
 
@@ -42,7 +42,7 @@ Per [Unity 6 official system requirements](https://docs.unity3d.com/Manual/syste
 
 Unity canceled the 2023 per-install Runtime Fee and uses a seat-based subscription model ([Unity Pricing](https://unity.com/pricing)):
 
-| Plan | Revenue / Funding Threshold | Price | Key Notes |
+| Plan | Revenue / Funding Threshold | Price | Notes |
 | --- | --- | --- | --- |
 | **Unity Personal** | Up to **$200,000** trailing 12-month revenue/funding | **Free** | "Made with Unity" splash screen is optional starting in Unity 6 |
 | **Unity Pro** | Over **$200,000** trailing 12-month revenue/funding | **$2,310/seat/year** (or $210/mo) | Required for console & Vision Pro publishing |

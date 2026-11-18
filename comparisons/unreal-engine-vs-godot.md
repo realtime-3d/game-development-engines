@@ -17,7 +17,7 @@ Comparing **Unreal Engine** and **Godot** is a choice between **AAA 3D power** a
 | **Languages** | C++, Blueprints | GDScript, C#, C++ (GDExtension) |
 | **2D Support** | Minimal (Paper2D) | Dedicated 2D engine |
 | **3D Rendering** | Lumen, Nanite, Niagara | Forward+, Mobile, Compatibility |
-| **Download Size** | ~40–100+ GB | ~100 MB |
+| **Download Size** | ~40-100+ GB | ~100 MB |
 | **Web Export** | Not officially supported in UE5 | Built-in (HTML5 / WebAssembly) |
 | **Pricing** | 5% royalty over $1M lifetime | $0, 0% royalties (MIT) |
 

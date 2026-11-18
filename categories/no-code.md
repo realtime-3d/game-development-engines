@@ -1,6 +1,6 @@
 # Game Engines Without Coding (No-Code & Visual Scripting)
 
-You do not need to write traditional text code to ship a complete commercial game. Modern no-code and visual-scripting engines let you build logic using event sheets, node graphs, or dialogue scripts.
+You do not need to write traditional text code to ship a complete commercial game. No-code and visual-scripting engines let you build game logic with event sheets, node graphs, or dialogue scripts.
 
 - **Last Verified:** 2026-11-16
 
@@ -12,7 +12,7 @@ You do not need to write traditional text code to ship a complete commercial gam
 | **[Construct 3](../engines/construct-3.md)** | Condition/Action Event Sheets | 2D | ~$15.99/mo or ~$119/yr | JavaScript / TypeScript |
 | **[GameMaker](../engines/gamemaker.md)** | GML Visual (Node/Block) | 2D | $99.99 one-time | GML |
 | **[Unreal Engine](../engines/unreal-engine.md)** | Blueprints Node Graph | 3D (AAA) | Free (<$1M), 5% royalty >$1M | C++ |
-| **RPG Maker MZ** | Event Commands & Database | 2D RPG | $69.99–$79.99 one-time | JavaScript Plugins |
+| **RPG Maker MZ** | Event Commands & Database | 2D RPG | $69.99-$79.99 one-time | JavaScript Plugins |
 | **[Unity](../engines/unity.md)** | Unity Visual Scripting | 2D & 3D | Free (<$200k/yr) | C# |
 
 ## Which One Should You Choose?

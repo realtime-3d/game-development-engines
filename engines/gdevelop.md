@@ -21,7 +21,7 @@
 ## 2D & 3D Capabilities
 
 - **2D:** Built-in 2D behaviors (Platformer, Top-down, Physics 2.0, Pathfinding), built-in Piskel sprite editor, and particle systems.
-- **3D:** Native 3D objects, 3D models, and 3D behaviors built into the same event-sheet workflow; best suited for lightweight or stylized 3D rather than heavy AAA scenes.
+- **3D:** Native 3D objects, 3D models, and 3D behaviors built into the same event-sheet workflow; best suited for lightweight or stylized 3D scenes.
 
 ## Editor & Target Platforms
 
@@ -35,7 +35,7 @@
 Per [GDevelop's official pricing](https://gdevelop.io/pricing):
 
 - **Free Tier ($0):** Full access to the open-source MIT engine, 2D/3D tools, and manual local exports with **0% royalties** and commercial rights. Includes basic cloud packaging quotas.
-- **Paid Subscriptions (Silver / Gold, ~$4.99–$9.99/mo):** Optional cloud services, higher daily one-click cloud builds (Android/desktop), more cloud project storage, and unlimited leaderboards/player feedback.
+- **Paid Subscriptions (Silver / Gold, ~$4.99-$9.99/mo):** Optional cloud services, higher daily one-click cloud builds (Android/desktop), more cloud project storage, and unlimited leaderboards/player feedback.
 
 ## Pros & Limitations
 

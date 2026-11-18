@@ -21,7 +21,7 @@
 
 ## 2D & 3D Capabilities
 
-- **2D:** Mature 2D rendering, Spine/atlas support, GUI layouts, and Box2D physics.
+- **2D:** 2D rendering, Spine/atlas support, GUI layouts, and Box2D physics.
 - **3D:** Native 3D mesh, PBR material, and physics support.
 
 ## Editor & Target Platforms
@@ -43,7 +43,7 @@ Per the [Defold License](https://defold.com/license/) and [Defold Product](https
 **Pros:**
 - Extremely small runtime footprint and fast Web/mobile load times.
 - 100% free forever, including official console support (for approved console devs).
-- Proven stability in commercial mobile games.
+- Used in shipped commercial mobile games.
 
 **Limitations:**
 - Smaller community and fewer tutorials than Unity or Godot.

@@ -20,5 +20,5 @@ If you decide to build your own lightweight engine or framework, these widely us
 - **SDL3 / SDL2 (C):** Industry-standard cross-platform windowing, input, and audio layer.
 - **Raylib (C, with bindings for Python/Go/Rust/C#):** Simple, zero-dependency library for learning 2D/3D graphics programming.
 - **SFML (C++):** Object-oriented 2D graphics, audio, and networking library.
-- **wgpu / Sokol / bgfx:** Modern cross-platform GPU rendering abstractions (Vulkan, Metal, DX12, WebGPU).
+- **wgpu / Sokol / bgfx:** Cross-platform GPU rendering abstractions (Vulkan, Metal, DX12, WebGPU).
 - **MonoGame (C#) / LÖVE (Lua) / Bevy (Rust):** Middle-ground code-first frameworks that give you full architectural control without writing raw windowing and asset loaders from zero.
